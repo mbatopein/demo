@@ -1,0 +1,11 @@
+{
+  "name": "Marensky Panorama Bar",
+  "short_name": "Marensky",
+  "description": "Panorama bar sulla litoranea di levante di Barletta",
+  "lang": "it",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1836",
+  "theme_color": "#173161",
+  "icons": [{ "src": "/demo/marensky/images/logo-square.png", "sizes": "270x270", "type": "image/png" }]
+}

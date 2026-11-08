@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-src https://maps.google.com https://www.google.com; media-src 'none'; object-src 'none'; worker-src 'self' blob:; base-uri 'self'; form-action 'self'" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Clarence – Pizza &amp; Grill | Pizzeria e braceria a Barletta, Via Minervino 1</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <script src="/demo/clarence/demo-mode.js"></script>
+
+  <meta name="description" content="Clarence – Pizza &amp; Grill, pizzeria-bistrot a Barletta dal 2011: pizze rosse e bianche, carne di puledro e maiale alla brace, burger e vasta scelta senza glutine. Martedì–domenica 20–23:30. Prenota online o al 334 871 7478." />
+  <link rel="canonical" href="http://localhost:3400/" />
+  
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="format-detection" content="telephone=yes" />
+  <meta name="geo.region" content="IT-BT" />
+  <meta name="geo.placename" content="Barletta" />
+
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:site_name" content="Clarence – Pizza &amp; Grill" />
+  <meta property="og:title" content="Clarence • Pizza &amp; Grill a Barletta" />
+  <meta property="og:description" content="Pizzeria-bistrot con specialità di carne e vasta scelta gluten-free. Stessi sapori, nuovo Clarence. Prenota il tuo tavolo." />
+  <meta property="og:url" content="http://localhost:3400/" />
+  <meta property="og:image" content="http://localhost:3400/images/pizza-punta-danca.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="/demo/clarence/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/demo/clarence/images/logo.png" />
+  <link rel="manifest" href="/demo/clarence/site.webmanifest" />
+  <link rel="preload" href="/demo/clarence/images/logo.png" as="image" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","@id":"http://localhost:3400/#restaurant","name":"Clarence – Pizza & Grill","alternateName":["Clarence","Clarence Pizza e Grill","Clarence Barletta"],"description":"Pizzeria-bistrot con specialità di carne alla brace e vasta scelta senza glutine, a Barletta dal 2011.","foundingDate":"2011","url":"http://localhost:3400/","image":["http://localhost:3400/images/pizza-punta-danca.jpg","http://localhost:3400/images/polpo.jpg","http://localhost:3400/images/burger.jpg"],"logo":"http://localhost:3400/images/logo.png","telephone":"+39 334 871 7478","priceRange":"€€","servesCuisine":["Pizza","Grill","Carne alla brace","Hamburger","Italiana"],"address":{"@type":"PostalAddress","streetAddress":"Via Minervino, 1","postalCode":"76121","addressLocality":"Barletta","addressRegion":"BT","addressCountry":"IT"},"hasMap":"https://www.google.com/maps/search/?api=1&query=Clarence+Pizza+%26+Grill+Via+Minervino+1+Barletta","acceptsReservations":true,"hasMenu":{"@id":"http://localhost:3400/#menu"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Tuesday","opens":"20:00","closes":"23:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"20:00","closes":"23:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"20:00","closes":"23:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"20:00","closes":"23:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"20:00","closes":"23:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"20:00","closes":"23:30"}],"sameAs":["https://www.instagram.com/clarence_pizzaegrill/","https://www.facebook.com/clarencepizzaegrill/"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Menu","@id":"http://localhost:3400/#menu","name":"Menù Clarence – Pizza & Grill","inLanguage":"it","hasMenuSection":[{"@type":"MenuSection","name":"Antipasti","hasMenuItem":[{"@type":"MenuItem","name":"Bruschette al pomodoro","offers":{"@type":"Offer","price":"5.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Chips","offers":{"@type":"Offer","price":"5.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Wurstel al forno","offers":{"@type":"Offer","price":"5.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Patate al forno","offers":{"@type":"Offer","price":"5.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Patate e Norcia","offers":{"@type":"Offer","price":"6.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Involtini","description":"speck, scamorza, melanzana","offers":{"@type":"Offer","price":"5.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Verdure grigliate","offers":{"@type":"Offer","price":"5.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Scamorza e crudo","offers":{"@type":"Offer","price":"6.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Rape e Norcia","offers":{"@type":"Offer","price":"5.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Crudo alla barese","offers":{"@type":"Offer","price":"8.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Mozzarella di bufala 250 g","offers":{"@type":"Offer","price":"8.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Tentacolo di polpo al forno","description":"servito con crema di zucca","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Insalate","hasMenuItem":[{"@type":"MenuItem","name":"Gustosa","description":"insalata, rucola, melanzane, bresaola, mozzarella, grana padano","offers":{"@type":"Offer","price":"7.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Classica","description":"insalata, pomodorini, mais, tonno, olive nere, cipolla","offers":{"@type":"Offer","price":"7.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Braceria","hasMenuItem":[{"@type":"MenuItem","name":"Salsiccia di puledro","description":"con contorno di patate","offers":{"@type":"Offer","price":"16.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Grigliata mista di maiale","description":"minimo per 2 persone","offers":{"@type":"Offer","price":"22.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Straccetti di puledro","description":"serviti con rucola e pomodorini","offers":{"@type":"Offer","price":"16.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Panini","hasMenuItem":[{"@type":"MenuItem","name":"Hamburger classico","description":"hamburger di manzo, pomodoro, insalata, cheddar, salsa burger; contorno di chips","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Big burger","description":"hamburger di manzo, insalata, cipolla caramellata, salsa BBQ; contorno di chips","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Tuna Bun","description":"tartare di tonno, zucchine, pomodoro al forno, stracciatella, lime","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Pizze rosse","hasMenuItem":[{"@type":"MenuItem","name":"Margherita","description":"pomodoro, mozzarella","offers":{"@type":"Offer","price":"7.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Tenerino","description":"pomodoro, mozzarella, wurstel","offers":{"@type":"Offer","price":"8.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Trinity","description":"pomodoro, mozzarella, salame dolce","offers":{"@type":"Offer","price":"8.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Diavola","description":"pomodoro, mozzarella, salame piccante","offers":{"@type":"Offer","price":"8.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Napoli","description":"pomodoro, mozzarella, capperi, acciughe","offers":{"@type":"Offer","price":"9.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Tirolese","description":"pomodoro, mozzarella, speck, scamorza","offers":{"@type":"Offer","price":"9.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"San Daniele","description":"pomodoro, mozzarella, prosciutto crudo","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Crudaiola","description":"pomodoro, mozzarella, rucola, pomodorini, ricotta dura","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Mexican","description":"pomodoro, mozzarella, salame piccante, funghi, peperoni","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Norcina","description":"pomodoro, mozzarella, salsiccia di Norcia, funghi","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"New Pizza","description":"pomodoro, mozzarella, melanzane, radicchio, scamorza","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Piripicchio","description":"pomodoro, mozzarella, patate, salsiccia di Norcia","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Ortolana","description":"pomodoro, mozzarella, melanzane, zucchine, peperoni, funghi","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Carrozziere","description":"pomodoro, mozzarella, capperi, tonno, pomodorini","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"American","description":"pomodoro, mozzarella, salame piccante, prosciutto cotto","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Brooklyn","description":"pomodoro, mozzarella, cipolla, salsiccia di puledro","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Speck e zola","description":"pomodoro, mozzarella, speck, gorgonzola","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Trevigiana","description":"pomodoro, mozzarella, radicchio, stracciatella","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Capricciosa","description":"pomodoro, mozzarella, cotto, acciughe, olive nere, funghi","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Zio Mimmo","description":"pomodoro, mozzarella, tonno, cipolla, peperoni","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Punta d’anca","description":"pomodoro, mozzarella, rucola, grana padano, bresaola","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Pescheria","description":"pomodoro, mozzarella, gamberetti, salmone affumicato","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Mari e monti","description":"pomodoro, mozzarella, funghi, gamberetti","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Montecarlo","description":"pomodoro, mozzarella, pancetta, formaggio francese","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Pizza del Capo","offers":{"@type":"Offer","price":"13.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Pizze bianche","hasMenuItem":[{"@type":"MenuItem","name":"Ciccio bufalina","description":"mozzarella di bufala, pomodorini, basilico","offers":{"@type":"Offer","price":"9.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Champignon","description":"mozzarella, stracciatella, champignon, grana padano","offers":{"@type":"Offer","price":"9.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Clarence","description":"mozzarella, patate, pancetta","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Formaggi","description":"mozzarella, scamorza, gorgonzola, grana padano","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Gratinata","description":"mozzarella, melanzane, ciliegine, pan grattato","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Halloween","description":"mozzarella, crema di zucca, speck affumicato, grana padano","offers":{"@type":"Offer","price":"10.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Caridea","description":"mozzarella, zucchine, gamberetti","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Bufalina","description":"mozzarella, pomodorini, bufala cruda, basilico","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Public House","description":"mozzarella, rape stufate, salsiccia di Norcia","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Eraclio","description":"mozzarella, speck, stracciatella, crema di pistacchi","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Golosa","description":"mozzarella, mortadella, crema di pistacchi, stracciatella","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Casanova","description":"mozzarella, crema di noci, salsiccia di Norcia, funghi, radicchio, stracciatella","offers":{"@type":"Offer","price":"12.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Capocollo","description":"mozzarella, crema di datterino giallo, pomodoro secco, stracciatella, capocollo","offers":{"@type":"Offer","price":"13.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Fieramosca","description":"mozzarella, pomodorini, rucola, tartufo, salsiccia di Norcia","offers":{"@type":"Offer","price":"13.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Birre alla spina","hasMenuItem":[{"@type":"MenuItem","name":"Menabrea Bionda","offers":{"@type":"Offer","price":"4.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Menabrea Ambrata","offers":{"@type":"Offer","price":"5.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Menabrea Strong","offers":{"@type":"Offer","price":"5.50","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Menabrea Weiss","offers":{"@type":"Offer","price":"6.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Birre in bottiglia","hasMenuItem":[{"@type":"MenuItem","name":"Forst Felsenkeller","description":"Sapore pieno e corposo, retrogusto morbido, luppolo poco accentuato.","offers":{"@type":"Offer","price":"4.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Forst 1857","description":"Fresca, di malto chiaro, con delicate note amare di luppolo. Molto beverina.","offers":{"@type":"Offer","price":"3.50","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Forst 0,0%","description":"Gusto pieno e bilanciato con piacevoli note di luppolo, corposa nonostante lo 0,0%.","offers":{"@type":"Offer","price":"3.50","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"L’Ippa","description":"Note agrumate di mandarino, sentori di melone e mango: la rilettura Baladin delle IPA inglesi.","offers":{"@type":"Offer","price":"5.50","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Bjorne","description":"“La birra dell’orso”: fresca, aroma maltato ed erbaceo, lieve nota amara.","offers":{"@type":"Offer","price":"4.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Charles Quint Rouge","description":"Malto e frutta rossa, amarognola e acidula; vinosa, con finale di liquirizia, caffè e Porto.","offers":{"@type":"Offer","price":"5.50","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Hacker-Pschorr Kellerbier","description":"Caramello, miele e prugna, con note fresche di mela e pompelmo.","offers":{"@type":"Offer","price":"6.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Estrella Galicia senza glutine","description":"Neutra e leggera, con sfumatura di luppolo e sentori tostati di orzo e malto.","offers":{"@type":"Offer","price":"4.50","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Bollicine","hasMenuItem":[{"@type":"MenuItem","name":"Marsuret Il Soller DOCG Extra Dry","description":"Giallo paglierino, perlage fine e persistente; elegante e fruttato, preponderante la mela.","offers":{"@type":"Offer","price":"25.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Marsuret Maria Rosé Pinot Nero Brut","description":"Metodo Charmat, rosa tenue e perlage fine; profumi di frutta e fiori, finale lungo e deciso.","offers":{"@type":"Offer","price":"25.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Montelvini Promosso Extra Dry","description":"Fruttato e aromatico, brioso e sapido, dal corpo asciutto.","offers":{"@type":"Offer","price":"18.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Bianchi","hasMenuItem":[{"@type":"MenuItem","name":"Salina Chardonnay IGP","description":"Giallo vivace, note floreali e di frutta a polpa bianca; retrogusto fruttato.","offers":{"@type":"Offer","price":"18.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Pietra Luce Verdeca IGT Salento","description":"Pesca, susina e fiori di sambuco; in bocca fresco e morbido.","offers":{"@type":"Offer","price":"18.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Rosati","hasMenuItem":[{"@type":"MenuItem","name":"Non Bermi DOP Tintilia del Molise Rosato","description":"Rosa tenue, intensamente fruttato: more, fragola, frutti di bosco. Secco e sapido.","offers":{"@type":"Offer","price":"24.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Pietra Rosa Rosato IGT Salento","description":"Fragolina di bosco, pompelmo rosa e ciliegia; vellutato e fresco.","offers":{"@type":"Offer","price":"18.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Assìna Susumaniello Rosato IGP","description":"Giovane, fresco e sapido, con piccoli frutti rossi e una nota di fiori bianchi.","offers":{"@type":"Offer","price":"17.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Rossi","hasMenuItem":[{"@type":"MenuItem","name":"Maccone Primitivo IGP Puglia","description":"Vigne ad alberello di 60 anni ad Acquaviva (BA). Morbido, pieno, tannini dolci.","offers":{"@type":"Offer","price":"22.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Pietra Madre IGT Salento","description":"Ribes, mora di rovo, noce moscata e tabacco dolce; vellutato, chiude sulla macchia mediterranea.","offers":{"@type":"Offer","price":"20.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"12 e mezzo Negroamaro IGP","description":"Frutti di bosco e vaniglia (3 mesi in barrique), vellutato e morbido.","offers":{"@type":"Offer","price":"16.00","priceCurrency":"EUR"}}]},{"@type":"MenuSection","name":"Bibite","hasMenuItem":[{"@type":"MenuItem","name":"Acqua naturale","description":"75 cl","offers":{"@type":"Offer","price":"2.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Acqua frizzante","description":"75 cl","offers":{"@type":"Offer","price":"2.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Coca-Cola","description":"in vetro, 33 cl","offers":{"@type":"Offer","price":"3.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Coca-Cola Zero","description":"in vetro, 33 cl","offers":{"@type":"Offer","price":"3.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Fanta","description":"in vetro, 33 cl","offers":{"@type":"Offer","price":"3.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Sprite","description":"in vetro, 33 cl","offers":{"@type":"Offer","price":"3.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Lemon soda","description":"in vetro, 33 cl","offers":{"@type":"Offer","price":"3.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Tè","description":"in vetro, 33 cl","offers":{"@type":"Offer","price":"3.00","priceCurrency":"EUR"}},{"@type":"MenuItem","name":"Chinò","description":"in vetro, 33 cl","offers":{"@type":"Offer","price":"3.00","priceCurrency":"EUR"}}]}]}</script>
+  <script type="module" crossorigin src="/demo/clarence/assets/main-BfMUH0V2.js"></script>
+  <link rel="modulepreload" crossorigin href="/demo/clarence/assets/outfit-jkSpLCQs.js">
+  <link rel="modulepreload" crossorigin href="/demo/clarence/assets/booking-rules-PkoovPXd.js">
+  <link rel="stylesheet" crossorigin href="/demo/clarence/assets/outfit-fiUgzwr6.css">
+  <link rel="stylesheet" crossorigin href="/demo/clarence/assets/main-reGZTC_r.css">
+</head>
+<body>
+  <a href="#main" class="skip">Salta al contenuto</a>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"><span class="cursor-label"></span></span></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header" id="header">
+    <a href="#top" class="brand" aria-label="Clarence – Pizza &amp; Grill, torna su" data-cursor="Su">
+      <img class="logo-img" src="/demo/clarence/images/logo.png" width="1435" height="607" alt="Clarence – Pizza &amp; Grill, Estd. 2011" />
+    </a>
+    <nav class="nav" aria-label="Navigazione principale">
+      <a href="#cucina">La cucina</a>
+      <a href="#firma">Le firmate</a>
+      <a href="#menu">Menù</a>
+      <a href="#social">Social</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+    <div class="header-actions">
+      <span class="status-pill" data-open-status><i></i><span>Orari</span></span>
+      <a href="#prenota" class="btn btn--solid btn--sm" data-magnetic>Prenota</a>
+      <button type="button" class="burger" aria-label="Apri il menù di navigazione" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <nav aria-label="Navigazione mobile">
+      <a href="#cucina"><span>01</span>La cucina</a>
+      <a href="#firma"><span>02</span>Le firmate</a>
+      <a href="#menu"><span>03</span>Menù</a>
+      <a href="#prenota"><span>04</span>Prenota</a>
+      <a href="#social"><span>05</span>Social</a>
+      <a href="#contatti"><span>06</span>Contatti</a>
+    </nav>
+    <p class="mobile-nav-foot"><a href="tel:+393348717478">334 871 7478</a> · Via Minervino, 1 · Barletta</p>
+  </div>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- HERO: il logo tra le braci, le foto si aprono a ventaglio con lo scroll -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-sticky">
+        <div class="hero-bg" aria-hidden="true"><span class="hero-glow"></span></div>
+        <canvas class="embers" id="embers" aria-hidden="true"></canvas>
+
+        <div class="hero-cards" aria-hidden="true">
+          <figure class="hero-card" data-card="0"><img src="/demo/clarence/images/pizza-punta-danca.jpg" width="512" height="640" alt="" fetchpriority="high" /></figure>
+          <figure class="hero-card" data-card="1"><img src="/demo/clarence/images/polpo.jpg" width="512" height="640" alt="" /></figure>
+          <figure class="hero-card" data-card="2"><img src="/demo/clarence/images/burger.jpg" width="512" height="640" alt="" /></figure>
+        </div>
+
+        <div class="hero-logo">
+          <h1 id="hero-title"><img src="/demo/clarence/images/logo.png" width="1435" height="607" alt="Clarence – Pizza &amp; Grill" /></h1>
+        </div>
+
+        <div class="hero-title">
+          <p class="eyebrow"><span class="dot"></span>Pizzeria-bistrot · Barletta</p>
+          <p class="hero-lead">Pizza sottile e leggera, carne alla brace e una vasta scelta senza glutine. Dal 2011, in via Minervino.</p>
+          <div class="hero-cta">
+            <a href="#prenota" class="btn btn--solid" data-magnetic>Prenota un tavolo</a>
+            <a href="#menu" class="btn btn--ghost" data-magnetic>Il menù</a>
+          </div>
+        </div>
+
+        <ol class="hero-steps" aria-label="Clarence in breve">
+          <li class="hero-step"><span class="step-num">01</span><h2>Pizza</h2><p>Più di trenta pizze, rosse e bianche: dalla Margherita a 7 € alla Fieramosca con tartufo e salsiccia di Norcia. Anche con farina senza glutine.</p></li>
+          <li class="hero-step"><span class="step-num">02</span><h2>&amp; Grill</h2><p>La braceria: salsiccia e straccetti di puledro, grigliata mista di maiale. E burger di manzo con le chips.</p></li>
+        </ol>
+
+        <div class="hero-end">
+          <p class="hero-end-kicker">Stessi sapori, nuovo Clarence.</p>
+          <p class="hero-end-text">Da martedì a domenica, dalle 20:00 alle 23:30.</p>
+          <div class="hero-end-cta">
+            <a href="#menu" class="btn btn--solid" data-magnetic>Sfoglia il menù</a>
+            <a href="#prenota" class="btn btn--ghost" data-magnetic>Prenota un tavolo</a>
+          </div>
+        </div>
+
+        <div class="hero-scroll" aria-hidden="true"><span>Scorri</span><i></i></div>
+        <div class="hero-meter" aria-hidden="true"><span class="hero-meter-fill"></span></div>
+      </div>
+    </section>
+
+    <!-- MANIFESTO: le parole si accendono scrollando -->
+    <section class="manifesto" aria-label="Chi siamo">
+      <p class="manifesto-kicker">Benvenuti</p>
+      <p class="manifesto-text" data-words>Una pizzeria-bistrot con le specialità di carne: pizza sottile, leggera e ben condita, la brace accesa per il puledro, birre alla spina e vini pugliesi. E chi non può mangiare glutine qui sceglie dal menù intero.</p>
+    </section>
+
+    <!-- STACK: i blocchi si impilano uno sull'altro -->
+    <section class="stack" id="cucina" aria-label="La cucina di Clarence">
+      <article class="stack-card">
+        <div class="stack-inner">
+          <div class="stack-media"><img src="/demo/clarence/images/pizza-punta-danca.jpg" width="512" height="640" alt="Pizza Punta d’anca con bresaola, rucola e scaglie di grana padano" loading="lazy" /></div>
+          <div class="stack-body">
+            <span class="stack-num">01 / 04</span>
+            <h2 class="stack-title" data-split>Le pizze</h2>
+            <p>Sottile, leggera, digeribile. <strong>25 rosse</strong> e <strong>14 bianche</strong>: le classiche, le pizze del Clarence come la <strong>Public House</strong> con rape stufate e Norcia, e la <strong>Punta d’anca</strong> con bresaola, rucola e grana.</p>
+            <ul class="stack-tags"><li>Margherita 7 €</li><li>Doppio impasto</li><li>Bufala</li><li>Stracciatella</li></ul>
+            <a href="#cat-rosse" class="link-arrow" data-cursor="Vai">Rosse e bianche <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </article>
+      <article class="stack-card">
+        <div class="stack-inner">
+          <div class="stack-media stack-media--type stack-media--ember" aria-hidden="true"><span class="type-big">Brace</span><span class="type-sub">Puledro · Maiale · Burger</span></div>
+          <div class="stack-body">
+            <span class="stack-num">02 / 04</span>
+            <h2 class="stack-title" data-split>Il grill</h2>
+            <p>La carne è di casa: <strong>salsiccia di puledro</strong> con le patate, <strong>straccetti di puledro</strong> con rucola e pomodorini, la <strong>grigliata mista di maiale</strong> da dividere in due. E nel panino, <strong>hamburger di manzo</strong> o il <strong>Tuna Bun</strong> con tartare di tonno e stracciatella.</p>
+            <ul class="stack-tags"><li>Braceria</li><li>Hamburger</li><li>Tuna Bun</li></ul>
+            <a href="#cat-braceria" class="link-arrow" data-cursor="Vai">Braceria e panini <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </article>
+      <article class="stack-card">
+        <div class="stack-inner">
+          <div class="stack-media"><img src="/demo/clarence/images/polpo.jpg" width="512" height="640" alt="Tentacolo di polpo al forno con pomodorini, crostini e crema" loading="lazy" /></div>
+          <div class="stack-body">
+            <span class="stack-num">03 / 04</span>
+            <h2 class="stack-title" data-split>Per cominciare</h2>
+            <p>Antipasti da condividere: <strong>tentacolo di polpo al forno</strong> con crema di zucca, <strong>crudo alla barese</strong>, <strong>bufala da 250 g</strong>, involtini di speck, scamorza e melanzana, rape e Norcia. Oppure un’insalata, la Gustosa o la Classica.</p>
+            <ul class="stack-tags"><li>Polpo</li><li>Crudo alla barese</li><li>Insalate</li></ul>
+            <a href="#cat-antipasti" class="link-arrow" data-cursor="Vai">Antipasti e insalate <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </article>
+      <article class="stack-card">
+        <div class="stack-inner">
+          <div class="stack-media"><img src="/demo/clarence/images/birra-spina.jpg" width="512" height="640" alt="Birra bionda spillata alla spina in un calice" loading="lazy" /></div>
+          <div class="stack-body">
+            <span class="stack-num">04 / 04</span>
+            <h2 class="stack-title" data-split>Da bere</h2>
+            <p>Quattro <strong>Menabrea alla spina</strong>, birre in bottiglia da Italia, Belgio, Germania e Danimarca, <strong>Estrella Galicia senza glutine</strong> e una carta di vini con <strong>Primitivo, Negroamaro e Susumaniello</strong> pugliesi, anche al calice.</p>
+            <ul class="stack-tags"><li>Alla spina</li><li>Senza glutine</li><li>Vini pugliesi</li></ul>
+            <a href="#cat-spina" class="link-arrow" data-cursor="Vai">Birre e vini <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- PIZZE FIRMATE: scorrimento orizzontale -->
+    <section class="gourmet" id="firma" aria-labelledby="firma-title">
+      <div class="gourmet-pin">
+        <div class="gourmet-head">
+          <p class="eyebrow"><span class="dot"></span>Solo da Clarence</p>
+          <h2 id="firma-title" data-split>Le firmate</h2>
+          <p class="gourmet-hint"><span class="hint-desktop">Continua a scorrere</span><span class="hint-touch">Scorri di lato</span> →</p>
+        </div>
+        <div class="gourmet-track" data-cursor="Scorri">
+          <article class="g-card" data-index="0">
+      <span class="g-num">01 / 11 · bianche</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">C</span></div>
+      <h3 class="g-name">Clarence</h3>
+      <ul class="g-ing"><li>patate</li><li>pancetta</li></ul>
+      <p class="g-price"><span>€</span>10</p>
+    </article><article class="g-card" data-index="1">
+      <span class="g-num">02 / 11 · rosse</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">P</span></div>
+      <h3 class="g-name">Piripicchio</h3>
+      <ul class="g-ing"><li>patate</li><li>salsiccia di Norcia</li></ul>
+      <p class="g-price"><span>€</span>10</p>
+    </article><article class="g-card" data-index="2">
+      <span class="g-num">03 / 11 · rosse</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">B</span></div>
+      <h3 class="g-name">Brooklyn</h3>
+      <ul class="g-ing"><li>cipolla</li><li>salsiccia di puledro</li></ul>
+      <p class="g-price"><span>€</span>10</p>
+    </article><article class="g-card" data-index="3">
+      <span class="g-num">04 / 11 · rosse</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">P</span></div>
+      <h3 class="g-name">Punta d’anca</h3>
+      <ul class="g-ing"><li>rucola</li><li>grana padano</li><li>bresaola</li></ul>
+      <p class="g-price"><span>€</span>12</p>
+    </article><article class="g-card" data-index="4">
+      <span class="g-num">05 / 11 · bianche</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">P</span></div>
+      <h3 class="g-name">Public House</h3>
+      <ul class="g-ing"><li>rape stufate</li><li>salsiccia di Norcia</li></ul>
+      <p class="g-price"><span>€</span>12</p>
+    </article><article class="g-card" data-index="5">
+      <span class="g-num">06 / 11 · bianche</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">E</span></div>
+      <h3 class="g-name">Eraclio</h3>
+      <ul class="g-ing"><li>speck</li><li>stracciatella</li><li>crema di pistacchi</li></ul>
+      <p class="g-price"><span>€</span>12</p>
+    </article><article class="g-card" data-index="6">
+      <span class="g-num">07 / 11 · bianche</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">G</span></div>
+      <h3 class="g-name">Golosa</h3>
+      <ul class="g-ing"><li>mortadella</li><li>crema di pistacchi</li><li>stracciatella</li></ul>
+      <p class="g-price"><span>€</span>12</p>
+    </article><article class="g-card" data-index="7">
+      <span class="g-num">08 / 11 · bianche</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">C</span></div>
+      <h3 class="g-name">Casanova</h3>
+      <ul class="g-ing"><li>crema di noci</li><li>salsiccia di Norcia</li><li>funghi</li><li>radicchio</li><li>stracciatella</li></ul>
+      <p class="g-price"><span>€</span>12</p>
+    </article><article class="g-card" data-index="8">
+      <span class="g-num">09 / 11 · rosse</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">P</span></div>
+      <h3 class="g-name">Pizza del Capo</h3>
+      <ul class="g-ing"><li>Ingredienti: chiedi in sala</li></ul>
+      <p class="g-price"><span>€</span>13</p>
+    </article><article class="g-card" data-index="9">
+      <span class="g-num">10 / 11 · bianche</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">C</span></div>
+      <h3 class="g-name">Capocollo</h3>
+      <ul class="g-ing"><li>crema di datterino giallo</li><li>pomodoro secco</li><li>stracciatella</li><li>capocollo</li></ul>
+      <p class="g-price"><span>€</span>13</p>
+    </article><article class="g-card" data-index="10">
+      <span class="g-num">11 / 11 · bianche</span>
+      <div class="g-plate" aria-hidden="true"><span class="g-ring"></span><span class="g-ring g-ring--2"></span><span class="g-initial">F</span></div>
+      <h3 class="g-name">Fieramosca</h3>
+      <ul class="g-ing"><li>pomodorini</li><li>rucola</li><li>tartufo</li><li>salsiccia di Norcia</li></ul>
+      <p class="g-price"><span>€</span>13</p>
+    </article>
+          <a href="#prenota" class="g-card g-card--end" data-cursor="Prenota"><span>Assaggiale<br />al tavolo</span><small>Prenota</small><i aria-hidden="true">→</i></a>
+        </div>
+        <div class="gourmet-progress" aria-hidden="true"><span></span></div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee-row" data-dir="1"><span>Pizza</span><i>×</i><span class="it">&amp; Grill</span><i>×</i><span>Barletta</span><i>×</i><span class="it">Estd. 2011</span><i>×</i></div>
+      <div class="marquee-row marquee-row--outline" data-dir="-1"><span>Gluten free</span><i>×</i><span class="it">Brace</span><i>×</i><span>Puledro</span><i>×</i><span class="it">Alla spina</span><i>×</i></div>
+    </section>
+
+    <!-- MENÙ -->
+    <section class="menu" id="menu" aria-labelledby="menu-title">
+      <div class="menu-intro">
+        <p class="eyebrow"><span class="dot"></span>Cucina, pizze e beverage</p>
+        <h2 id="menu-title" data-split>Il menù</h2>
+        <p class="menu-lead">Il menù completo di Clarence, con i prezzi aggiornati: cucina, pizze, birre, vini e bibite. Cerca un ingrediente o salta a una sezione.</p>
+      </div>
+
+      <div class="menu-tools">
+        <label class="search">
+          <span class="sr-only">Cerca nel menù</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+          <input type="search" id="menu-search" placeholder="Cerca: puledro, stracciatella, pistacchio…" autocomplete="off" maxlength="40" />
+        </label>
+        <button type="button" class="toggle" id="sig-toggle" aria-pressed="false"><span class="sig-dot" aria-hidden="true"></span>Solo firmate Clarence</button>
+      </div>
+      <p class="gf-note"><span aria-hidden="true">GF</span>Tutte le pizze si possono avere con <strong>farina senza glutine</strong> (+ €2) e <strong>mozzarella senza lattosio</strong> (+ €2).</p>
+
+      <nav class="menu-nav" aria-label="Categorie del menù"><div class="menu-nav-track"><a href="#cat-antipasti" class="menu-chip is-active" data-cat="antipasti">Antipasti</a><a href="#cat-insalate" class="menu-chip" data-cat="insalate">Insalate</a><a href="#cat-braceria" class="menu-chip" data-cat="braceria">Braceria</a><a href="#cat-panini" class="menu-chip" data-cat="panini">Panini</a><a href="#cat-rosse" class="menu-chip" data-cat="rosse">Pizze rosse</a><a href="#cat-bianche" class="menu-chip" data-cat="bianche">Pizze bianche</a><a href="#cat-spina" class="menu-chip" data-cat="spina">Birre alla spina</a><a href="#cat-birre" class="menu-chip" data-cat="birre">Birre in bottiglia</a><a href="#cat-bollicine" class="menu-chip" data-cat="bollicine">Bollicine</a><a href="#cat-bianchi" class="menu-chip" data-cat="bianchi">Bianchi</a><a href="#cat-rosati" class="menu-chip" data-cat="rosati">Rosati</a><a href="#cat-rossi" class="menu-chip" data-cat="rossi">Rossi</a><a href="#cat-bibite" class="menu-chip" data-cat="bibite">Bibite</a></div></nav>
+
+      <div class="menu-body">
+        <p class="menu-group" aria-hidden="true">Cucina</p><section class="menu-cat" id="cat-antipasti" data-cat="antipasti" aria-labelledby="h-antipasti">
+      <header class="menu-cat-head">
+        <h3 id="h-antipasti">Antipasti</h3>
+        <span class="menu-cat-count" data-count>12</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="bruschette al pomodoro antipasti">
+    <div class="dish-head"><h4 class="dish-name">Bruschette al pomodoro</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>5</span></div>
+    
+  </li><li class="dish" data-search="chips antipasti">
+    <div class="dish-head"><h4 class="dish-name">Chips<sup class="mark" title="Il prodotto potrebbe essere congelato.">*</sup></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>5</span></div>
+    
+  </li><li class="dish" data-search="wurstel al forno antipasti">
+    <div class="dish-head"><h4 class="dish-name">Wurstel al forno</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>5</span></div>
+    
+  </li><li class="dish" data-search="patate al forno antipasti">
+    <div class="dish-head"><h4 class="dish-name">Patate al forno</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>5</span></div>
+    
+  </li><li class="dish" data-search="patate e norcia antipasti">
+    <div class="dish-head"><h4 class="dish-name">Patate e Norcia</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>6</span></div>
+    
+  </li><li class="dish" data-search="involtini speck, scamorza, melanzana antipasti">
+    <div class="dish-head"><h4 class="dish-name">Involtini</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>5</span></div>
+    <p class="dish-desc">speck, scamorza, melanzana</p>
+  </li><li class="dish" data-search="verdure grigliate antipasti">
+    <div class="dish-head"><h4 class="dish-name">Verdure grigliate</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>5</span></div>
+    
+  </li><li class="dish" data-search="scamorza e crudo antipasti">
+    <div class="dish-head"><h4 class="dish-name">Scamorza e crudo</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>6</span></div>
+    
+  </li><li class="dish" data-search="rape e norcia antipasti">
+    <div class="dish-head"><h4 class="dish-name">Rape e Norcia</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>5</span></div>
+    
+  </li><li class="dish" data-search="crudo alla barese antipasti">
+    <div class="dish-head"><h4 class="dish-name">Crudo alla barese</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>8</span></div>
+    
+  </li><li class="dish" data-search="mozzarella di bufala 250 g antipasti">
+    <div class="dish-head"><h4 class="dish-name">Mozzarella di bufala 250 g</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>8</span></div>
+    
+  </li><li class="dish" data-search="tentacolo di polpo al forno servito con crema di zucca antipasti">
+    <div class="dish-head"><h4 class="dish-name">Tentacolo di polpo al forno<sup class="mark" title="Il prodotto potrebbe essere congelato.">*</sup></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">servito con crema di zucca</p>
+  </li></ul>
+    </section><section class="menu-cat" id="cat-insalate" data-cat="insalate" aria-labelledby="h-insalate">
+      <header class="menu-cat-head">
+        <h3 id="h-insalate">Insalate</h3>
+        <span class="menu-cat-count" data-count>2</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="gustosa insalata, rucola, melanzane, bresaola, mozzarella, grana padano insalate">
+    <div class="dish-head"><h4 class="dish-name">Gustosa</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>7</span></div>
+    <p class="dish-desc">insalata, rucola, melanzane, bresaola, mozzarella, grana padano</p>
+  </li><li class="dish" data-search="classica insalata, pomodorini, mais, tonno, olive nere, cipolla insalate">
+    <div class="dish-head"><h4 class="dish-name">Classica</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>7</span></div>
+    <p class="dish-desc">insalata, pomodorini, mais, tonno, olive nere, cipolla</p>
+  </li></ul>
+    </section><section class="menu-cat" id="cat-braceria" data-cat="braceria" aria-labelledby="h-braceria">
+      <header class="menu-cat-head">
+        <h3 id="h-braceria">Braceria</h3>
+        <span class="menu-cat-count" data-count>3</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="salsiccia di puledro con contorno di patate braceria">
+    <div class="dish-head"><h4 class="dish-name">Salsiccia di puledro</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>16</span></div>
+    <p class="dish-desc">con contorno di patate</p>
+  </li><li class="dish" data-search="grigliata mista di maiale minimo per 2 persone braceria">
+    <div class="dish-head"><h4 class="dish-name">Grigliata mista di maiale</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>per 2</small><span class="cur">€</span>22</span></div>
+    <p class="dish-desc">minimo per 2 persone</p>
+  </li><li class="dish" data-search="straccetti di puledro serviti con rucola e pomodorini braceria">
+    <div class="dish-head"><h4 class="dish-name">Straccetti di puledro</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>16</span></div>
+    <p class="dish-desc">serviti con rucola e pomodorini</p>
+  </li></ul>
+    </section><section class="menu-cat" id="cat-panini" data-cat="panini" aria-labelledby="h-panini">
+      <header class="menu-cat-head">
+        <h3 id="h-panini">Panini</h3>
+        <span class="menu-cat-count" data-count>3</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="hamburger classico hamburger di manzo, pomodoro, insalata, cheddar, salsa burger; contorno di chips panini">
+    <div class="dish-head"><h4 class="dish-name">Hamburger classico</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">hamburger di manzo, pomodoro, insalata, cheddar, salsa burger; contorno di chips</p>
+  </li><li class="dish" data-search="big burger hamburger di manzo, insalata, cipolla caramellata, salsa bbq; contorno di chips panini">
+    <div class="dish-head"><h4 class="dish-name">Big burger</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">hamburger di manzo, insalata, cipolla caramellata, salsa BBQ; contorno di chips</p>
+  </li><li class="dish" data-search="tuna bun tartare di tonno, zucchine, pomodoro al forno, stracciatella, lime panini">
+    <div class="dish-head"><h4 class="dish-name">Tuna Bun</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">tartare di tonno, zucchine, pomodoro al forno, stracciatella, lime</p>
+  </li></ul>
+    </section><p class="menu-group" aria-hidden="true">Pizze</p><section class="menu-cat" id="cat-rosse" data-cat="rosse" aria-labelledby="h-rosse">
+      <header class="menu-cat-head">
+        <h3 id="h-rosse">Pizze rosse</h3>
+        <span class="menu-cat-count" data-count>25</span>
+      </header>
+      <p class="menu-note">Su richiesta: farina o pan grattato senza glutine e mozzarella senza lattosio (vedi supplementi).</p>
+      <ul class="dish-list"><li class="dish" data-search="margherita pomodoro, mozzarella pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Margherita</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>7</span></div>
+    <p class="dish-desc">pomodoro, mozzarella</p>
+  </li><li class="dish" data-search="tenerino pomodoro, mozzarella, wurstel pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Tenerino</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>8</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, wurstel</p>
+  </li><li class="dish" data-search="trinity pomodoro, mozzarella, salame dolce pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Trinity</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>8</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, salame dolce</p>
+  </li><li class="dish" data-search="diavola pomodoro, mozzarella, salame piccante pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Diavola</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>8</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, salame piccante</p>
+  </li><li class="dish" data-search="napoli pomodoro, mozzarella, capperi, acciughe pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Napoli</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>9</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, capperi, acciughe</p>
+  </li><li class="dish" data-search="tirolese pomodoro, mozzarella, speck, scamorza pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Tirolese</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>9</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, speck, scamorza</p>
+  </li><li class="dish" data-search="san daniele pomodoro, mozzarella, prosciutto crudo pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">San Daniele</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, prosciutto crudo</p>
+  </li><li class="dish" data-search="crudaiola pomodoro, mozzarella, rucola, pomodorini, ricotta dura pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Crudaiola</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, rucola, pomodorini, ricotta dura</p>
+  </li><li class="dish" data-search="mexican pomodoro, mozzarella, salame piccante, funghi, peperoni pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Mexican</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, salame piccante, funghi, peperoni</p>
+  </li><li class="dish" data-search="norcina pomodoro, mozzarella, salsiccia di norcia, funghi pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Norcina</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, salsiccia di Norcia, funghi</p>
+  </li><li class="dish" data-search="new pizza pomodoro, mozzarella, melanzane, radicchio, scamorza pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">New Pizza</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, melanzane, radicchio, scamorza</p>
+  </li><li class="dish" data-search="piripicchio pomodoro, mozzarella, patate, salsiccia di norcia pizze rosse firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Piripicchio <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, patate, salsiccia di Norcia</p>
+  </li><li class="dish" data-search="ortolana pomodoro, mozzarella, melanzane, zucchine, peperoni, funghi pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Ortolana</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, melanzane, zucchine, peperoni, funghi</p>
+  </li><li class="dish" data-search="carrozziere pomodoro, mozzarella, capperi, tonno, pomodorini pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Carrozziere</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, capperi, tonno, pomodorini</p>
+  </li><li class="dish" data-search="american pomodoro, mozzarella, salame piccante, prosciutto cotto pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">American</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, salame piccante, prosciutto cotto</p>
+  </li><li class="dish" data-search="brooklyn pomodoro, mozzarella, cipolla, salsiccia di puledro pizze rosse firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Brooklyn <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, cipolla, salsiccia di puledro</p>
+  </li><li class="dish" data-search="speck e zola pomodoro, mozzarella, speck, gorgonzola pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Speck e zola</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, speck, gorgonzola</p>
+  </li><li class="dish" data-search="trevigiana pomodoro, mozzarella, radicchio, stracciatella pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Trevigiana</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, radicchio, stracciatella</p>
+  </li><li class="dish" data-search="capricciosa pomodoro, mozzarella, cotto, acciughe, olive nere, funghi pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Capricciosa</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, cotto, acciughe, olive nere, funghi</p>
+  </li><li class="dish" data-search="zio mimmo pomodoro, mozzarella, tonno, cipolla, peperoni pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Zio Mimmo</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, tonno, cipolla, peperoni</p>
+  </li><li class="dish" data-search="punta d’anca pomodoro, mozzarella, rucola, grana padano, bresaola pizze rosse firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Punta d’anca <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, rucola, grana padano, bresaola</p>
+  </li><li class="dish" data-search="pescheria pomodoro, mozzarella, gamberetti, salmone affumicato pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Pescheria<sup class="mark" title="Il prodotto potrebbe essere congelato.">*</sup></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, gamberetti, salmone affumicato</p>
+  </li><li class="dish" data-search="mari e monti pomodoro, mozzarella, funghi, gamberetti pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Mari e monti<sup class="mark" title="Il prodotto potrebbe essere congelato.">*</sup></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, funghi, gamberetti</p>
+  </li><li class="dish" data-search="montecarlo pomodoro, mozzarella, pancetta, formaggio francese pizze rosse">
+    <div class="dish-head"><h4 class="dish-name">Montecarlo</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">pomodoro, mozzarella, pancetta, formaggio francese</p>
+  </li><li class="dish" data-search="pizza del capo pizze rosse firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Pizza del Capo <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>13</span></div>
+    <p class="dish-desc">Chiedi in sala gli ingredienti.</p>
+  </li></ul>
+    </section><section class="menu-cat" id="cat-bianche" data-cat="bianche" aria-labelledby="h-bianche">
+      <header class="menu-cat-head">
+        <h3 id="h-bianche">Pizze bianche</h3>
+        <span class="menu-cat-count" data-count>14</span>
+      </header>
+      <p class="menu-note">Su richiesta: farina o pan grattato senza glutine e mozzarella senza lattosio (vedi supplementi).</p>
+      <ul class="dish-list"><li class="dish" data-search="ciccio bufalina mozzarella di bufala, pomodorini, basilico pizze bianche">
+    <div class="dish-head"><h4 class="dish-name">Ciccio bufalina</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>9</span></div>
+    <p class="dish-desc">mozzarella di bufala, pomodorini, basilico</p>
+  </li><li class="dish" data-search="champignon mozzarella, stracciatella, champignon, grana padano pizze bianche">
+    <div class="dish-head"><h4 class="dish-name">Champignon</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>9</span></div>
+    <p class="dish-desc">mozzarella, stracciatella, champignon, grana padano</p>
+  </li><li class="dish" data-search="clarence mozzarella, patate, pancetta pizze bianche firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Clarence <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">mozzarella, patate, pancetta</p>
+  </li><li class="dish" data-search="formaggi mozzarella, scamorza, gorgonzola, grana padano pizze bianche">
+    <div class="dish-head"><h4 class="dish-name">Formaggi</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">mozzarella, scamorza, gorgonzola, grana padano</p>
+  </li><li class="dish" data-search="gratinata mozzarella, melanzane, ciliegine, pan grattato pizze bianche">
+    <div class="dish-head"><h4 class="dish-name">Gratinata</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">mozzarella, melanzane, ciliegine, pan grattato</p>
+  </li><li class="dish" data-search="halloween mozzarella, crema di zucca, speck affumicato, grana padano pizze bianche stagionale">
+    <div class="dish-head"><h4 class="dish-name">Halloween <span class="badge badge--season">Stagionale</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>10</span></div>
+    <p class="dish-desc">mozzarella, crema di zucca, speck affumicato, grana padano</p>
+  </li><li class="dish" data-search="caridea mozzarella, zucchine, gamberetti pizze bianche">
+    <div class="dish-head"><h4 class="dish-name">Caridea<sup class="mark" title="Il prodotto potrebbe essere congelato.">*</sup></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">mozzarella, zucchine, gamberetti</p>
+  </li><li class="dish" data-search="bufalina mozzarella, pomodorini, bufala cruda, basilico pizze bianche">
+    <div class="dish-head"><h4 class="dish-name">Bufalina</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">mozzarella, pomodorini, bufala cruda, basilico</p>
+  </li><li class="dish" data-search="public house mozzarella, rape stufate, salsiccia di norcia pizze bianche firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Public House <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">mozzarella, rape stufate, salsiccia di Norcia</p>
+  </li><li class="dish" data-search="eraclio mozzarella, speck, stracciatella, crema di pistacchi pizze bianche firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Eraclio <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">mozzarella, speck, stracciatella, crema di pistacchi</p>
+  </li><li class="dish" data-search="golosa mozzarella, mortadella, crema di pistacchi, stracciatella pizze bianche firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Golosa <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">mozzarella, mortadella, crema di pistacchi, stracciatella</p>
+  </li><li class="dish" data-search="casanova mozzarella, crema di noci, salsiccia di norcia, funghi, radicchio, stracciatella pizze bianche firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Casanova <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>12</span></div>
+    <p class="dish-desc">mozzarella, crema di noci, salsiccia di Norcia, funghi, radicchio, stracciatella</p>
+  </li><li class="dish" data-search="capocollo mozzarella, crema di datterino giallo, pomodoro secco, stracciatella, capocollo pizze bianche firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Capocollo <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>13</span></div>
+    <p class="dish-desc">mozzarella, crema di datterino giallo, pomodoro secco, stracciatella, capocollo</p>
+  </li><li class="dish" data-search="fieramosca mozzarella, pomodorini, rucola, tartufo, salsiccia di norcia pizze bianche firma clarence">
+    <div class="dish-head"><h4 class="dish-name">Fieramosca <span class="badge badge--sig">Firma Clarence</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>13</span></div>
+    <p class="dish-desc">mozzarella, pomodorini, rucola, tartufo, salsiccia di Norcia</p>
+  </li></ul>
+    </section><p class="menu-group" aria-hidden="true">Da bere</p><section class="menu-cat" id="cat-spina" data-cat="spina" aria-labelledby="h-spina">
+      <header class="menu-cat-head">
+        <h3 id="h-spina">Birre alla spina</h3>
+        <span class="menu-cat-count" data-count>4</span>
+      </header>
+      
+      <ul class="dish-list dish-list--drink"><li class="dish dish--drink" data-search="menabrea bionda export lager italia birre alla spina">
+      <div class="dish-head"><h4 class="dish-name">Menabrea Bionda</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>30 cl</small><span class="cur">€</span>4</span></div>
+      <p class="dish-meta">Export lager · 4,8% vol · Italia</p>
+      
+    </li><li class="dish dish--drink" data-search="menabrea ambrata amber italia birre alla spina">
+      <div class="dish-head"><h4 class="dish-name">Menabrea Ambrata</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>30 cl</small><span class="cur">€</span>5</span></div>
+      <p class="dish-meta">Amber · 5% vol · Italia</p>
+      
+    </li><li class="dish dish--drink" data-search="menabrea strong strong ale italia birre alla spina">
+      <div class="dish-head"><h4 class="dish-name">Menabrea Strong</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>30 cl</small><span class="cur">€</span>5,50</span></div>
+      <p class="dish-meta">Strong ale · 8% vol · Italia</p>
+      
+    </li><li class="dish dish--drink" data-search="menabrea weiss weiss italia birre alla spina">
+      <div class="dish-head"><h4 class="dish-name">Menabrea Weiss</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>50 cl</small><span class="cur">€</span>6</span></div>
+      <p class="dish-meta">Weiss · 5,2% vol · Italia</p>
+      
+    </li></ul>
+    </section><section class="menu-cat" id="cat-birre" data-cat="birre" aria-labelledby="h-birre">
+      <header class="menu-cat-head">
+        <h3 id="h-birre">Birre in bottiglia</h3>
+        <span class="menu-cat-count" data-count>8</span>
+      </header>
+      
+      <ul class="dish-list dish-list--drink"><li class="dish dish--drink" data-search="forst felsenkeller sapore pieno e corposo, retrogusto morbido, luppolo poco accentuato. keller beer forst · italia birre in bottiglia">
+      <div class="dish-head"><h4 class="dish-name">Forst Felsenkeller</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>33 cl</small><span class="cur">€</span>4</span></div>
+      <p class="dish-meta">Keller beer · 5,2% vol · Forst · Italia</p>
+      <p class="dish-desc">Sapore pieno e corposo, retrogusto morbido, luppolo poco accentuato.</p>
+    </li><li class="dish dish--drink" data-search="forst 1857 fresca, di malto chiaro, con delicate note amare di luppolo. molto beverina. super premium forst · italia birre in bottiglia">
+      <div class="dish-head"><h4 class="dish-name">Forst 1857</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>33 cl</small><span class="cur">€</span>3,50</span></div>
+      <p class="dish-meta">Super premium · 4,8% vol · Forst · Italia</p>
+      <p class="dish-desc">Fresca, di malto chiaro, con delicate note amare di luppolo. Molto beverina.</p>
+    </li><li class="dish dish--drink" data-search="forst 0,0% gusto pieno e bilanciato con piacevoli note di luppolo, corposa nonostante lo 0,0%. lager analcolica forst · italia birre in bottiglia">
+      <div class="dish-head"><h4 class="dish-name">Forst 0,0%</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>33 cl</small><span class="cur">€</span>3,50</span></div>
+      <p class="dish-meta">Lager analcolica · analcolica · Forst · Italia</p>
+      <p class="dish-desc">Gusto pieno e bilanciato con piacevoli note di luppolo, corposa nonostante lo 0,0%.</p>
+    </li><li class="dish dish--drink" data-search="l’ippa note agrumate di mandarino, sentori di melone e mango: la rilettura baladin delle ipa inglesi. ipa baladin · italia birre in bottiglia">
+      <div class="dish-head"><h4 class="dish-name">L’Ippa</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>33 cl</small><span class="cur">€</span>5,50</span></div>
+      <p class="dish-meta">IPA · 5,5% vol · Baladin · Italia</p>
+      <p class="dish-desc">Note agrumate di mandarino, sentori di melone e mango: la rilettura Baladin delle IPA inglesi.</p>
+    </li><li class="dish dish--drink" data-search="bjorne “la birra dell’orso”: fresca, aroma maltato ed erbaceo, lieve nota amara. strong lager darguner · danimarca birre in bottiglia">
+      <div class="dish-head"><h4 class="dish-name">Bjorne</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>33 cl</small><span class="cur">€</span>4</span></div>
+      <p class="dish-meta">Strong lager · 8,3% vol · Darguner · Danimarca</p>
+      <p class="dish-desc">“La birra dell’orso”: fresca, aroma maltato ed erbaceo, lieve nota amara.</p>
+    </li><li class="dish dish--drink" data-search="charles quint rouge malto e frutta rossa, amarognola e acidula; vinosa, con finale di liquirizia, caffe e porto. belgian red ale haacht · belgio birre in bottiglia">
+      <div class="dish-head"><h4 class="dish-name">Charles Quint Rouge</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>33 cl</small><span class="cur">€</span>5,50</span></div>
+      <p class="dish-meta">Belgian red ale · 8,5% vol · Haacht · Belgio</p>
+      <p class="dish-desc">Malto e frutta rossa, amarognola e acidula; vinosa, con finale di liquirizia, caffè e Porto.</p>
+    </li><li class="dish dish--drink" data-search="hacker-pschorr kellerbier caramello, miele e prugna, con note fresche di mela e pompelmo. keller bier hacker-pschorr · germania birre in bottiglia">
+      <div class="dish-head"><h4 class="dish-name">Hacker-Pschorr Kellerbier</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>50 cl</small><span class="cur">€</span>6</span></div>
+      <p class="dish-meta">Keller bier · 5,5% vol · Hacker-Pschorr · Germania</p>
+      <p class="dish-desc">Caramello, miele e prugna, con note fresche di mela e pompelmo.</p>
+    </li><li class="dish dish--drink" data-search="estrella galicia senza glutine neutra e leggera, con sfumatura di luppolo e sentori tostati di orzo e malto. lager speciale senza glutine estrella galicia · spagna birre in bottiglia senza glutine gluten free">
+      <div class="dish-head"><h4 class="dish-name">Estrella Galicia senza glutine</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>33 cl</small><span class="cur">€</span>4,50</span></div>
+      <p class="dish-meta">Lager speciale senza glutine · 5,5% vol · Estrella Galicia · Spagna</p>
+      <p class="dish-desc">Neutra e leggera, con sfumatura di luppolo e sentori tostati di orzo e malto.</p>
+    </li></ul>
+    </section><section class="menu-cat" id="cat-bollicine" data-cat="bollicine" aria-labelledby="h-bollicine">
+      <header class="menu-cat-head">
+        <h3 id="h-bollicine">Bollicine</h3>
+        <span class="menu-cat-count" data-count>3</span>
+      </header>
+      
+      <ul class="dish-list dish-list--wine"><li class="dish dish--wine" data-search="marsuret il soller docg extra dry giallo paglierino, perlage fine e persistente; elegante e fruttato, preponderante la mela. veneto marsuret glera 100% bollicine">
+      <div class="dish-head"><h4 class="dish-name">Marsuret Il Soller DOCG Extra Dry</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>bottiglia</small><span class="cur">€</span>25</span></div>
+      <p class="dish-meta">Marsuret · Veneto · Glera 100% · 11,5% vol</p>
+      <p class="dish-desc">Giallo paglierino, perlage fine e persistente; elegante e fruttato, preponderante la mela.</p>
+    </li><li class="dish dish--wine" data-search="marsuret maria rose pinot nero brut metodo charmat, rosa tenue e perlage fine; profumi di frutta e fiori, finale lungo e deciso. veneto marsuret pinot nero bollicine">
+      <div class="dish-head"><h4 class="dish-name">Marsuret Maria Rosé Pinot Nero Brut</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>bottiglia</small><span class="cur">€</span>25</span></div>
+      <p class="dish-meta">Marsuret · Veneto · Pinot nero · 11,5% vol</p>
+      <p class="dish-desc">Metodo Charmat, rosa tenue e perlage fine; profumi di frutta e fiori, finale lungo e deciso.</p>
+    </li><li class="dish dish--wine" data-search="montelvini promosso extra dry fruttato e aromatico, brioso e sapido, dal corpo asciutto. veneto montelvini cuvee di glera e chardonnay bollicine">
+      <div class="dish-head"><h4 class="dish-name">Montelvini Promosso Extra Dry</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>bottiglia</small><span class="cur">€</span>18</span></div>
+      <p class="dish-meta">Montelvini · Veneto · Cuvée di Glera e Chardonnay · 11,5% vol</p>
+      <p class="dish-desc">Fruttato e aromatico, brioso e sapido, dal corpo asciutto.</p>
+    </li></ul>
+    </section><section class="menu-cat" id="cat-bianchi" data-cat="bianchi" aria-labelledby="h-bianchi">
+      <header class="menu-cat-head">
+        <h3 id="h-bianchi">Bianchi</h3>
+        <span class="menu-cat-count" data-count>2</span>
+      </header>
+      
+      <ul class="dish-list dish-list--wine"><li class="dish dish--wine" data-search="salina chardonnay igp giallo vivace, note floreali e di frutta a polpa bianca; retrogusto fruttato. puglia podere 29 chardonnay bianchi">
+      <div class="dish-head"><h4 class="dish-name">Salina Chardonnay IGP</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>calice</small><span class="cur">€</span>5<span class="sep">·</span><small>bottiglia</small><span class="cur">€</span>18</span></div>
+      <p class="dish-meta">Podere 29 · Puglia · Chardonnay · 13% vol</p>
+      <p class="dish-desc">Giallo vivace, note floreali e di frutta a polpa bianca; retrogusto fruttato.</p>
+    </li><li class="dish dish--wine" data-search="pietra luce verdeca igt salento pesca, susina e fiori di sambuco; in bocca fresco e morbido. puglia menhir-marangelli verdeca bianchi">
+      <div class="dish-head"><h4 class="dish-name">Pietra Luce Verdeca IGT Salento</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>bottiglia</small><span class="cur">€</span>18</span></div>
+      <p class="dish-meta">Menhir-Marangelli · Puglia · Verdeca · 12% vol</p>
+      <p class="dish-desc">Pesca, susina e fiori di sambuco; in bocca fresco e morbido.</p>
+    </li></ul>
+    </section><section class="menu-cat" id="cat-rosati" data-cat="rosati" aria-labelledby="h-rosati">
+      <header class="menu-cat-head">
+        <h3 id="h-rosati">Rosati</h3>
+        <span class="menu-cat-count" data-count>3</span>
+      </header>
+      
+      <ul class="dish-list dish-list--wine"><li class="dish dish--wine" data-search="non bermi dop tintilia del molise rosato rosa tenue, intensamente fruttato: more, fragola, frutti di bosco. secco e sapido. molise claudio cipressi tintilia 100% rosati">
+      <div class="dish-head"><h4 class="dish-name">Non Bermi DOP Tintilia del Molise Rosato</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>bottiglia</small><span class="cur">€</span>24</span></div>
+      <p class="dish-meta">Claudio Cipressi · Molise · Tintilia 100% · 12,5% vol</p>
+      <p class="dish-desc">Rosa tenue, intensamente fruttato: more, fragola, frutti di bosco. Secco e sapido.</p>
+    </li><li class="dish dish--wine" data-search="pietra rosa rosato igt salento fragolina di bosco, pompelmo rosa e ciliegia; vellutato e fresco. puglia menhir-marangelli primitivo, susumaniello rosati">
+      <div class="dish-head"><h4 class="dish-name">Pietra Rosa Rosato IGT Salento</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>bottiglia</small><span class="cur">€</span>18</span></div>
+      <p class="dish-meta">Menhir-Marangelli · Puglia · Primitivo, Susumaniello · 12,5% vol</p>
+      <p class="dish-desc">Fragolina di bosco, pompelmo rosa e ciliegia; vellutato e fresco.</p>
+    </li><li class="dish dish--wine" data-search="assina susumaniello rosato igp giovane, fresco e sapido, con piccoli frutti rossi e una nota di fiori bianchi. puglia san donaci susumaniello rosati">
+      <div class="dish-head"><h4 class="dish-name">Assìna Susumaniello Rosato IGP</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>calice</small><span class="cur">€</span>6<span class="sep">·</span><small>bottiglia</small><span class="cur">€</span>17</span></div>
+      <p class="dish-meta">San Donaci · Puglia · Susumaniello · 12,5% vol</p>
+      <p class="dish-desc">Giovane, fresco e sapido, con piccoli frutti rossi e una nota di fiori bianchi.</p>
+    </li></ul>
+    </section><section class="menu-cat" id="cat-rossi" data-cat="rossi" aria-labelledby="h-rossi">
+      <header class="menu-cat-head">
+        <h3 id="h-rossi">Rossi</h3>
+        <span class="menu-cat-count" data-count>3</span>
+      </header>
+      
+      <ul class="dish-list dish-list--wine"><li class="dish dish--wine" data-search="maccone primitivo igp puglia vigne ad alberello di 60 anni ad acquaviva (ba). morbido, pieno, tannini dolci. puglia angiuli donato primitivo rossi">
+      <div class="dish-head"><h4 class="dish-name">Maccone Primitivo IGP Puglia</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>bottiglia</small><span class="cur">€</span>22</span></div>
+      <p class="dish-meta">Angiuli Donato · Puglia · Primitivo · 15% vol</p>
+      <p class="dish-desc">Vigne ad alberello di 60 anni ad Acquaviva (BA). Morbido, pieno, tannini dolci.</p>
+    </li><li class="dish dish--wine" data-search="pietra madre igt salento ribes, mora di rovo, noce moscata e tabacco dolce; vellutato, chiude sulla macchia mediterranea. puglia menhir-marangelli primitivo, susumaniello rossi">
+      <div class="dish-head"><h4 class="dish-name">Pietra Madre IGT Salento</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>bottiglia</small><span class="cur">€</span>20</span></div>
+      <p class="dish-meta">Menhir-Marangelli · Puglia · Primitivo, Susumaniello · 15% vol</p>
+      <p class="dish-desc">Ribes, mora di rovo, noce moscata e tabacco dolce; vellutato, chiude sulla macchia mediterranea.</p>
+    </li><li class="dish dish--wine" data-search="12 e mezzo negroamaro igp frutti di bosco e vaniglia (3 mesi in barrique), vellutato e morbido. puglia varvaglione negroamaro del salento 100% rossi">
+      <div class="dish-head"><h4 class="dish-name">12 e mezzo Negroamaro IGP</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>calice</small><span class="cur">€</span>6<span class="sep">·</span><small>bottiglia</small><span class="cur">€</span>16</span></div>
+      <p class="dish-meta">Varvaglione · Puglia · Negroamaro del Salento 100% · 12,5% vol</p>
+      <p class="dish-desc">Frutti di bosco e vaniglia (3 mesi in barrique), vellutato e morbido.</p>
+    </li></ul>
+    </section><section class="menu-cat" id="cat-bibite" data-cat="bibite" aria-labelledby="h-bibite">
+      <header class="menu-cat-head">
+        <h3 id="h-bibite">Bibite</h3>
+        <span class="menu-cat-count" data-count>9</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="acqua naturale 75 cl bibite">
+    <div class="dish-head"><h4 class="dish-name">Acqua naturale</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>2</span></div>
+    <p class="dish-desc">75 cl</p>
+  </li><li class="dish" data-search="acqua frizzante 75 cl bibite">
+    <div class="dish-head"><h4 class="dish-name">Acqua frizzante</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>2</span></div>
+    <p class="dish-desc">75 cl</p>
+  </li><li class="dish" data-search="coca-cola in vetro, 33 cl bibite">
+    <div class="dish-head"><h4 class="dish-name">Coca-Cola</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>3</span></div>
+    <p class="dish-desc">in vetro, 33 cl</p>
+  </li><li class="dish" data-search="coca-cola zero in vetro, 33 cl bibite">
+    <div class="dish-head"><h4 class="dish-name">Coca-Cola Zero</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>3</span></div>
+    <p class="dish-desc">in vetro, 33 cl</p>
+  </li><li class="dish" data-search="fanta in vetro, 33 cl bibite">
+    <div class="dish-head"><h4 class="dish-name">Fanta</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>3</span></div>
+    <p class="dish-desc">in vetro, 33 cl</p>
+  </li><li class="dish" data-search="sprite in vetro, 33 cl bibite">
+    <div class="dish-head"><h4 class="dish-name">Sprite</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>3</span></div>
+    <p class="dish-desc">in vetro, 33 cl</p>
+  </li><li class="dish" data-search="lemon soda in vetro, 33 cl bibite">
+    <div class="dish-head"><h4 class="dish-name">Lemon soda</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>3</span></div>
+    <p class="dish-desc">in vetro, 33 cl</p>
+  </li><li class="dish" data-search="te in vetro, 33 cl bibite">
+    <div class="dish-head"><h4 class="dish-name">Tè</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>3</span></div>
+    <p class="dish-desc">in vetro, 33 cl</p>
+  </li><li class="dish" data-search="chino in vetro, 33 cl bibite">
+    <div class="dish-head"><h4 class="dish-name">Chinò</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="cur">€</span>3</span></div>
+    <p class="dish-desc">in vetro, 33 cl</p>
+  </li></ul>
+    </section>
+        <p class="menu-empty" hidden>Nessun piatto trovato. Prova con un’altra parola o togli il filtro.</p>
+      </div>
+      <div class="menu-foot">
+    <div class="menu-extras">
+      <h3>Supplementi pizze</h3>
+      <ul><li><span>Aggiunta ingrediente</span><span>+ €1,50</span></li><li><span>Pan grattato senza glutine</span><span>+ €1,50</span></li><li><span>Mozzarella senza lattosio</span><span>+ €2</span></li><li><span>Mozzarella di bufala</span><span>+ €2</span></li><li><span>Farina senza glutine</span><span>+ €2</span></li><li><span>Doppio impasto</span><span>+ €2</span></li>
+        <li class="is-coperto"><span>Coperto e servizio al tavolo</span><span>€1,50</span></li></ul>
+    </div>
+    <div class="menu-marks">
+      <h3>Note</h3>
+      <p><strong>Senza glutine.</strong> Ogni pizza si può preparare con farina senza glutine; c’è anche la birra Estrella Galicia senza glutine. Segnala sempre celiachia, allergie e intolleranze al personale.</p>
+      <p><strong>Senza lattosio.</strong> Su richiesta, mozzarella senza lattosio su tutte le pizze.</p>
+      <p><sup class="mark">*</sup> Il prodotto potrebbe essere congelato.</p>
+      <p>Prezzi in euro. I vini con due prezzi sono disponibili anche al calice.</p>
+    </div>
+  </div>
+    </section>
+
+    <!-- PRENOTAZIONI -->
+    <section class="booking" id="prenota" aria-labelledby="booking-title">
+      <div class="booking-side">
+        <p class="eyebrow"><span class="dot"></span>Prenota</p>
+        <h2 id="booking-title" data-split>Un tavolo da Clarence</h2>
+        <p>Scegli giorno, orario e quante persone: ti richiamiamo noi per confermare. Siamo aperti da martedì a domenica, dalle 20:00 alle 23:30.</p>
+        <p class="booking-phone">Preferisci chiamare?<br /><a href="tel:+393348717478" data-cursor="Chiama">334 871 7478</a><br /><span class="booking-phone-note">Il sabato niente prenotazioni al telefono: usa il modulo.</span></p>
+      </div>
+
+      <form class="booking-form" id="booking-form" novalidate>
+        <fieldset class="bf-block">
+          <legend>Giorno</legend>
+          <div class="chips" id="bf-days" role="radiogroup" aria-label="Giorno"></div>
+          <label class="bf-other">Altra data <input type="date" id="bf-date" name="date" required /></label>
+          <p class="bf-error" data-error="date"></p>
+        </fieldset>
+
+        <fieldset class="bf-block">
+          <legend>Orario</legend>
+          <div class="chips chips--time" id="bf-times" role="radiogroup" aria-label="Orario"><p class="bf-hint">Scegli prima il giorno</p></div>
+          <p class="bf-error" data-error="time"></p>
+        </fieldset>
+
+        <fieldset class="bf-block bf-guests">
+          <legend>Persone</legend>
+          <div class="stepper">
+            <button type="button" data-step="-1" aria-label="Una persona in meno">−</button>
+            <output id="bf-guests-out" aria-live="polite">2</output>
+            <button type="button" data-step="1" aria-label="Una persona in più">+</button>
+          </div>
+          <input type="hidden" name="guests" id="bf-guests" value="2" />
+          <p class="bf-error" data-error="guests"></p>
+        </fieldset>
+
+        <div class="bf-grid">
+          <label class="field"><input type="text" name="name" autocomplete="name" required maxlength="60" placeholder=" " /><span>Nome e cognome</span><em class="bf-error" data-error="name"></em></label>
+          <label class="field"><input type="tel" name="phone" autocomplete="tel" required maxlength="20" placeholder=" " inputmode="tel" /><span>Telefono</span><em class="bf-error" data-error="phone"></em></label>
+          <label class="field field--wide"><input type="email" name="email" autocomplete="email" maxlength="120" placeholder=" " /><span>Email (facoltativa)</span><em class="bf-error" data-error="email"></em></label>
+          <label class="field field--wide"><textarea name="notes" rows="2" maxlength="300" placeholder=" "></textarea><span>Note: celiachia, senza lattosio, seggiolone, compleanni…</span></label>
+        </div>
+
+        <!-- Campo trappola per i bot: invisibile alle persone -->
+        <label class="hp" aria-hidden="true">Sito web <input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+
+        <label class="check">
+          <input type="checkbox" name="privacy" required />
+          <span>Accetto il trattamento dei dati per gestire la prenotazione (<a href="/demo/clarence/privacy.html" target="_blank" rel="noopener">informativa privacy</a>).</span>
+        </label>
+        <p class="bf-error" data-error="privacy"></p>
+
+        <div class="bf-submit">
+          <button type="submit" class="btn btn--solid btn--lg" data-magnetic><span>Invia la richiesta</span></button>
+          <p class="bf-status" role="status" aria-live="polite"></p>
+        </div>
+
+        <div class="bf-success" hidden>
+          <svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="36" /><path d="m25 41 10 10 21-22" /></svg>
+          <h3>Richiesta inviata!</h3>
+          <p>Ti chiameremo al più presto per confermare il tavolo.<br />Codice richiesta: <strong data-code></strong></p>
+          <button type="button" class="btn btn--ghost" data-reset>Nuova prenotazione</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- SOCIAL -->
+    <section class="social" id="social" aria-labelledby="social-title">
+      <div class="social-grid">
+        <div class="social-photos">
+          <figure class="social-photo"><img src="/demo/clarence/images/pizza-crudo.jpg" width="512" height="640" alt="Pizza bianca al pistacchio con prosciutto crudo e stracciatella, un trancio sollevato" loading="lazy" /></figure>
+          <figure class="social-photo social-photo--small"><img src="/demo/clarence/images/vino-rosato.jpg" width="512" height="640" alt="Bottiglia di vino rosato tenuta in mano davanti a una pianta" loading="lazy" /></figure>
+        </div>
+        <div class="social-body">
+          <p class="eyebrow"><span class="dot"></span>@clarence_pizzaegrill</p>
+          <h2 id="social-title" data-split>Seguici e dicci la tua</h2>
+          <p class="social-lead">Pizze nuove, serate e le stagionali come la Halloween: le trovi prima sui nostri profili. E se sei stato da noi, lasciaci una recensione.</p>
+          <ul class="social-cards">
+            <li><a class="social-card social-card--ig" href="https://www.instagram.com/clarence_pizzaegrill/" target="_blank" rel="noopener noreferrer" data-cursor="Apri">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4.2" /><circle cx="17.4" cy="6.6" r="1" class="fill" /></svg>
+              <span><strong>Instagram</strong><small>@clarence_pizzaegrill</small></span><i aria-hidden="true">↗</i></a></li>
+            <li><a class="social-card social-card--fb" href="https://www.facebook.com/clarencepizzaegrill/" target="_blank" rel="noopener noreferrer" data-cursor="Apri">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8a0 0 0 0 1 0 0Z" /></svg>
+              <span><strong>Facebook</strong><small>Clarence – Pizza &amp; Grill</small></span><i aria-hidden="true">↗</i></a></li>
+            <li><a class="social-card social-card--rv" href="https://g.page/r/CbEahwWhNPK9EAE/review" target="_blank" rel="noopener noreferrer" data-cursor="Scrivi">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.8-4.5 4.2 1.1 6L12 16.7 6.6 19.6l1.1-6L3.2 9.4l6.1-.8Z" /></svg>
+              <span><strong>Recensioni</strong><small>Dacci la tua opinione su Google</small></span><i aria-hidden="true">↗</i></a></li>
+            <li><a class="social-card social-card--tel" href="tel:+393348717478" data-cursor="Chiama">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 6 6L15 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" /></svg>
+              <span><strong>Telefono</strong><small>334 871 7478</small></span><i aria-hidden="true">↗</i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATTI -->
+    <section class="contact" id="contatti" aria-labelledby="contact-title">
+      <div class="contact-grid">
+        <div class="contact-main">
+          <p class="eyebrow"><span class="dot"></span>Vieni a trovarci</p>
+          <h2 id="contact-title" data-split>Barletta,<br /><em>via Minervino 1</em></h2>
+          <p class="contact-sub">76121 Barletta (BT). Aperti la sera da martedì a domenica, lunedì chiuso.</p>
+          <p class="status-big" data-open-status><i></i><span>Orari</span></p>
+          <div class="contact-actions">
+            <a class="btn btn--solid" href="tel:+393348717478" data-magnetic>Chiama 334 871 7478</a>
+            <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Clarence+Pizza+%26+Grill+Via+Minervino+1+Barletta" target="_blank" rel="noopener noreferrer" data-magnetic>Indicazioni</a>
+          </div>
+          <ul class="contact-list">
+            <li><span>Telefono</span><a href="tel:+393348717478">334 871 7478</a> <small>(no sabato)</small></li>
+            <li><span>Instagram</span><a href="https://www.instagram.com/clarence_pizzaegrill/" target="_blank" rel="noopener noreferrer">@clarence_pizzaegrill</a></li>
+            <li><span>Facebook</span><a href="https://www.facebook.com/clarencepizzaegrill/" target="_blank" rel="noopener noreferrer">clarencepizzaegrill</a></li>
+          </ul>
+        </div>
+        <div class="contact-hours">
+          <h3>Orari</h3>
+          <ul class="hours" id="hours"><li data-day="1"><span>Lunedì</span><span>Chiuso</span></li><li data-day="2"><span>Martedì</span><span>20:00 – 23:30</span></li><li data-day="3"><span>Mercoledì</span><span>20:00 – 23:30</span></li><li data-day="4"><span>Giovedì</span><span>20:00 – 23:30</span></li><li data-day="5"><span>Venerdì</span><span>20:00 – 23:30</span></li><li data-day="6"><span>Sabato</span><span>20:00 – 23:30</span></li><li data-day="0"><span>Domenica</span><span>20:00 – 23:30</span></li></ul>
+          <p class="hours-note">Nei festivi gli orari possono cambiare: nel dubbio, chiamaci.</p>
+        </div>
+        <div class="contact-map">
+          <button type="button" class="map-load" id="map-load" data-cursor="Mappa">
+            <span>Mostra la mappa</span>
+            <small>Caricando la mappa accetti i cookie di Google Maps</small>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img class="footer-logo" src="/demo/clarence/images/logo.png" width="1435" height="607" alt="" aria-hidden="true" loading="lazy" />
+    <div class="footer-row">
+      <p>Clarence – Pizza &amp; Grill · Via Minervino, 1 – 76121 Barletta (BT) · Tel. 334 871 7478</p>
+      <p><a href="https://www.instagram.com/clarence_pizzaegrill/" target="_blank" rel="noopener noreferrer">Instagram</a> · <a href="https://www.facebook.com/clarencepizzaegrill/" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="/demo/clarence/privacy.html">Privacy</a> · <a href="#top">Torna su ↑</a></p>
+    </div>
+  </footer>
+</body>
+</html>
