@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob: data:; frame-src https://maps.google.com https://www.google.com; media-src 'none'; object-src 'none'; worker-src 'self' blob:; base-uri 'self'; form-action 'self'" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Pizzeria Il Bugigattolo | Pizza a Poggiofranco, Bari · Via Salvemini 97</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <script src="/demo/bugigattolo/demo-mode.js"></script>
+
+  <meta name="description" content="Pizzeria Il Bugigattolo, via Gaetano Salvemini 97 a Bari (Poggiofranco): pochi tavoli, tovaglie a quadri, pizze, terrine e taglieri fino all’1:30. Martedì chiuso. Prenota online o ordina d’asporto su WhatsApp al 340 151 7737." />
+  <link rel="canonical" href="http://localhost:3600/" />
+  
+  <meta name="theme-color" content="#1b1a33" />
+  <meta name="format-detection" content="telephone=yes" />
+  <meta name="geo.region" content="IT-BA" />
+  <meta name="geo.placename" content="Bari" />
+
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:site_name" content="Pizzeria Il Bugigattolo" />
+  <meta property="og:title" content="Il Bugigattolo · Piccolo il posto, grande la pizza" />
+  <meta property="og:description" content="Pizzeria a Poggiofranco, a due passi dal Poli. Aperti fino all’1:30, martedì chiuso. Prenota o ordina d’asporto su WhatsApp." />
+  <meta property="og:url" content="http://localhost:3600/" />
+  <meta property="og:image" content="http://localhost:3600/images/pizza-pomodorini.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="/demo/bugigattolo/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/demo/bugigattolo/favicon.svg" />
+  <link rel="manifest" href="/demo/bugigattolo/site.webmanifest" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","@id":"http://localhost:3600/#restaurant","name":"Pizzeria Il Bugigattolo","alternateName":["Il Bugigattolo","Bugigattolo Bari"],"description":"Pizzeria serale a Poggiofranco, Bari: pochi tavoli, tovaglie a quadri, pizze, terrine e taglieri fino a tardi. Asporto su WhatsApp.","url":"http://localhost:3600/","image":["http://localhost:3600/images/pizza-pomodorini.jpg","http://localhost:3600/images/pizza-crudo-burrata.jpg","http://localhost:3600/images/bancone.jpg"],"logo":"http://localhost:3600/favicon.svg","telephone":"+39 340 151 7737","priceRange":"€","servesCuisine":["Pizza","Italiana","Pugliese"],"address":{"@type":"PostalAddress","streetAddress":"Via Gaetano Salvemini, 97","postalCode":"70125","addressLocality":"Bari","addressRegion":"BA","addressCountry":"IT"},"hasMap":"https://www.google.com/maps/search/?api=1&query=Pizzeria+Il+Bugigattolo+Via+Gaetano+Salvemini+97+Bari","acceptsReservations":true,"hasMenu":{"@id":"http://localhost:3600/#menu"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"20:00","closes":"01:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"20:00","closes":"01:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"20:00","closes":"01:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"20:00","closes":"01:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"20:00","closes":"01:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"20:00","closes":"01:30"}],"sameAs":["https://www.facebook.com/pages/Bugigattolo/112682838799499"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Menu","@id":"http://localhost:3600/#menu","name":"Menù Pizzeria Il Bugigattolo","inLanguage":"it","hasMenuSection":[{"@type":"MenuSection","name":"Le pizze di casa","hasMenuItem":[{"@type":"MenuItem","name":"Murgiana","description":"fior di latte, funghi cardoncelli, salsiccia di Norcia"},{"@type":"MenuItem","name":"Martina"},{"@type":"MenuItem","name":"Fumè"},{"@type":"MenuItem","name":"Dolce e forte"},{"@type":"MenuItem","name":"Crudo e burrata","description":"pomodoro, fior di latte, prosciutto crudo, burrata al centro"},{"@type":"MenuItem","name":"Crudo e pistacchio","description":"fior di latte, granella di pistacchio, prosciutto crudo"},{"@type":"MenuItem","name":"Pomodorini, rucola e grana","description":"pomodoro, fior di latte, pomodorini, rucola, scaglie di grana"},{"@type":"MenuItem","name":"Salame piccante e salsiccia","description":"pomodoro, fior di latte, salame piccante, salsiccia sbriciolata"},{"@type":"MenuItem","name":"Verdure gratinate","description":"fior di latte e verdure di stagione gratinate al forno"}]},{"@type":"MenuSection","name":"Le classiche","hasMenuItem":[{"@type":"MenuItem","name":"Marinara","description":"pomodoro, aglio, origano, olio extravergine"},{"@type":"MenuItem","name":"Margherita","description":"pomodoro, fior di latte, basilico"},{"@type":"MenuItem","name":"Diavola","description":"pomodoro, fior di latte, salame piccante"},{"@type":"MenuItem","name":"Prosciutto e funghi","description":"pomodoro, fior di latte, cotto, funghi"},{"@type":"MenuItem","name":"Capricciosa","description":"pomodoro, fior di latte, cotto, funghi, carciofini, olive"},{"@type":"MenuItem","name":"Quattro formaggi","description":"fior di latte, gorgonzola, provola, grana"}]},{"@type":"MenuSection","name":"Antipasti e taglieri","hasMenuItem":[{"@type":"MenuItem","name":"Bruschette","description":"pane abbrustolito, pomodorini, rucola"},{"@type":"MenuItem","name":"Panzerotti","description":"fritti, pomodoro e mozzarella"},{"@type":"MenuItem","name":"Antipasti in terrina","description":"le terrine calde dal forno, a seconda della giornata"},{"@type":"MenuItem","name":"Antipasto vario","description":"caldo e freddo, da dividere"},{"@type":"MenuItem","name":"Prosciutto crudo"},{"@type":"MenuItem","name":"Bresaola, grana e rucola"},{"@type":"MenuItem","name":"Carpaccio di manzo","description":"rucola e scaglie di grana"},{"@type":"MenuItem","name":"Tagliere di salumi"},{"@type":"MenuItem","name":"Pepata di cozze"}]},{"@type":"MenuSection","name":"Primi","hasMenuItem":[{"@type":"MenuItem","name":"Pennette all’arrabbiata"},{"@type":"MenuItem","name":"Spaghetti alle cozze","description":"cozze e pomodorini"},{"@type":"MenuItem","name":"Spaghetti alla San Giovanni"},{"@type":"MenuItem","name":"Orecchiette alle cime di rapa"},{"@type":"MenuItem","name":"Tagliatelle ai frutti di mare"},{"@type":"MenuItem","name":"Tagliatelle gamberi, pistacchio e stracciatella","description":"con datterino giallo"}]},{"@type":"MenuSection","name":"Secondi","hasMenuItem":[{"@type":"MenuItem","name":"Tagliata con pomodorini e rucola"}]},{"@type":"MenuSection","name":"Dolci","hasMenuItem":[{"@type":"MenuItem","name":"Tiramisù","description":"fatto in casa"},{"@type":"MenuItem","name":"Panna cotta ai frutti di bosco"},{"@type":"MenuItem","name":"Crostata al cioccolato fondente","description":"cioccolato 60% e caramello salato"},{"@type":"MenuItem","name":"Tortino al cioccolato","description":"cuore morbido"}]},{"@type":"MenuSection","name":"Da bere","hasMenuItem":[{"@type":"MenuItem","name":"Birra alla spina","description":"piccola / media"},{"@type":"MenuItem","name":"Birra in bottiglia","description":"chiedi quelle in frigo"},{"@type":"MenuItem","name":"Vino della casa","description":"rosso o bianco, ¼ / ½ / 1 litro"},{"@type":"MenuItem","name":"Bibite in lattina"},{"@type":"MenuItem","name":"Acqua naturale o frizzante"},{"@type":"MenuItem","name":"Caffè"}]}]}</script>
+  <script type="module" crossorigin src="/demo/bugigattolo/assets/main-DOw-1GTN.js"></script>
+  <link rel="modulepreload" crossorigin href="/demo/bugigattolo/assets/caveat-xV_ajf2F.js">
+  <link rel="modulepreload" crossorigin href="/demo/bugigattolo/assets/booking-rules-DiUnvWRr.js">
+  <link rel="stylesheet" crossorigin href="/demo/bugigattolo/assets/caveat-Ct7wqjPY.css">
+  <link rel="stylesheet" crossorigin href="/demo/bugigattolo/assets/main-BSbEPF47.css">
+</head>
+<body>
+  <a href="#main" class="skip">Salta al contenuto</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header" id="header">
+    <a href="#top" class="brand" aria-label="Il Bugigattolo, torna su">
+      <svg class="brand-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M13 58V31a19 19 0 0 1 38 0v27Z" fill="#d8412a"/><path d="M13 58V31a19 19 0 0 1 38 0v27" fill="none" stroke="#24160f" stroke-width="3.5"/><circle cx="32" cy="31" r="8.5" fill="#f0b43c" stroke="#24160f" stroke-width="2.5"/><circle cx="29.5" cy="29" r="1.8" fill="#d8412a"/><circle cx="34.5" cy="33.5" r="1.8" fill="#d8412a"/><circle cx="43" cy="46" r="2.4" fill="#f7eedd"/></svg>
+      <span class="brand-word"><small>il</small>Bugigattolo</span>
+    </a>
+    <nav class="nav" aria-label="Navigazione principale">
+      <a href="#posto">Il posto</a>
+      <a href="#menu">Menù</a>
+      <a href="#asporto">Asporto</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#contatti">Dove siamo</a>
+    </nav>
+    <div class="header-actions">
+      <span class="status-pill" data-open-status><i></i><span>Orari</span></span>
+      <a href="#prenota" class="btn btn--tomato btn--sm">Prenota</a>
+      <button type="button" class="burger" aria-label="Apri il menù di navigazione" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <nav aria-label="Navigazione mobile">
+      <a href="#posto"><span>01</span>Il posto</a>
+      <a href="#menu"><span>02</span>Menù</a>
+      <a href="#asporto"><span>03</span>Asporto</a>
+      <a href="#recensioni"><span>04</span>Recensioni</a>
+      <a href="#prenota"><span>05</span>Prenota</a>
+      <a href="#contatti"><span>06</span>Dove siamo</a>
+    </nav>
+    <p class="mobile-nav-foot"><a href="tel:+393401517737">340 151 7737</a> · Via Gaetano Salvemini, 97 · Bari</p>
+  </div>
+
+  <a href="#asporto" class="cart-pill" id="cart-pill" hidden><span class="cart-pill-count" data-cart-count>0</span><span data-cart-label>nell’ordine</span><b>Ordina →</b></a>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- HERO: il bugigattolo stretto tra i palazzi. Scorrendo la porta si apre, si entra
+         e sulla tovaglia a quadri la pizza si compone con gli ingredienti che cadono. -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-sticky">
+
+        <!-- A · facciata -->
+        <div class="facade" aria-hidden="true">
+          <svg class="facade-svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMax slice">
+            <defs>
+              <linearGradient id="g-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101026"/><stop offset=".7" stop-color="#2a2850"/><stop offset="1" stop-color="#3b3060"/></linearGradient>
+              <linearGradient id="g-window" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe3a1"/><stop offset="1" stop-color="#f0a83c"/></linearGradient>
+              <linearGradient id="g-wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3992f"/><stop offset="1" stop-color="#c97c22"/></linearGradient>
+              <radialGradient id="g-glow"><stop offset="0" stop-color="#ffc867" stop-opacity=".55"/><stop offset="1" stop-color="#ffc867" stop-opacity="0"/></radialGradient>
+              <pattern id="p-awning" x="430" y="0" width="40" height="80" patternUnits="userSpaceOnUse"><rect width="20" height="80" fill="#d8412a"/><rect x="20" width="20" height="80" fill="#f7eedd"/></pattern>
+              <pattern id="p-gingham" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#f7eedd"/><rect width="7" height="14" fill="#d8412a" opacity=".5"/><rect width="14" height="7" fill="#d8412a" opacity=".5"/></pattern>
+            </defs>
+            <rect x="-800" y="-400" width="2800" height="1500" fill="url(#g-sky)"/>
+            <g class="stars" fill="#f7eedd">
+              <circle cx="120" cy="40" r="2"/><circle cx="300" cy="-60" r="1.6"/><circle cx="520" cy="80" r="2.2"/><circle cx="650" cy="-20" r="1.4"/><circle cx="700" cy="200" r="1.8"/><circle cx="860" cy="-90" r="2"/><circle cx="1110" cy="0" r="1.6"/><circle cx="470" cy="250" r="1.4"/><circle cx="560" cy="-110" r="1.8"/><circle cx="40" cy="-80" r="1.5"/>
+            </g>
+            <g class="moon"><circle cx="905" cy="-30" r="40" fill="#f7eedd"/><circle cx="890" cy="-40" r="7" fill="#e6d9bf"/><circle cx="918" cy="-14" r="5" fill="#e6d9bf"/></g>
+
+            <!-- palazzo di sinistra -->
+            <rect x="-800" y="60" width="1220" height="800" fill="#25223f"/>
+            <rect x="-800" y="60" width="1220" height="14" fill="#1b1931"/>
+            <g fill="#34305a">
+              <rect x="70" y="120" width="70" height="96" rx="4"/><rect x="190" y="120" width="70" height="96" rx="4" class="lit"/><rect x="310" y="120" width="70" height="96" rx="4"/>
+              <rect x="70" y="270" width="70" height="96" rx="4" class="lit lit--b"/><rect x="190" y="270" width="70" height="96" rx="4"/><rect x="310" y="270" width="70" height="96" rx="4"/>
+              <rect x="70" y="420" width="70" height="96" rx="4"/><rect x="190" y="420" width="70" height="96" rx="4"/><rect x="310" y="420" width="70" height="96" rx="4" class="lit lit--c"/>
+              <rect x="70" y="570" width="70" height="96" rx="4"/><rect x="190" y="570" width="70" height="96" rx="4" class="lit"/><rect x="310" y="570" width="70" height="96" rx="4"/>
+              <rect x="-50" y="120" width="70" height="96" rx="4"/><rect x="-50" y="420" width="70" height="96" rx="4" class="lit lit--b"/><rect x="-50" y="270" width="70" height="96" rx="4"/>
+            </g>
+            <!-- palazzo di destra -->
+            <rect x="780" y="10" width="1220" height="850" fill="#201e38"/>
+            <g fill="#2f2c52">
+              <rect x="830" y="80" width="70" height="96" rx="4" class="lit lit--c"/><rect x="950" y="80" width="70" height="96" rx="4"/><rect x="1070" y="80" width="70" height="96" rx="4"/>
+              <rect x="830" y="230" width="70" height="96" rx="4"/><rect x="950" y="230" width="70" height="96" rx="4" class="lit"/><rect x="1070" y="230" width="70" height="96" rx="4"/>
+              <rect x="830" y="380" width="70" height="96" rx="4"/><rect x="950" y="380" width="70" height="96" rx="4"/><rect x="1070" y="380" width="70" height="96" rx="4" class="lit lit--b"/>
+              <rect x="830" y="530" width="70" height="96" rx="4" class="lit lit--b"/><rect x="950" y="530" width="70" height="96" rx="4"/><rect x="1070" y="530" width="70" height="96" rx="4"/>
+              <rect x="1190" y="230" width="70" height="96" rx="4" class="lit"/><rect x="1190" y="530" width="70" height="96" rx="4"/>
+            </g>
+
+            <!-- il bugigattolo -->
+            <rect x="420" y="360" width="360" height="475" fill="url(#g-wall)"/>
+            <rect x="406" y="344" width="388" height="24" rx="4" fill="#9a5c1a"/>
+            <rect x="452" y="384" width="296" height="78" rx="12" fill="#24160f"/>
+            <text x="600" y="430" text-anchor="middle" class="sign-word" textLength="250" lengthAdjust="spacingAndGlyphs">IL BUGIGATTOLO</text>
+            <text x="600" y="451" text-anchor="middle" class="sign-sub">PIZZERIA · DAL 20:00 A TARDI</text>
+            <path d="M430 482H770V522a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0a10 10 0 0 1-20 0Z" fill="url(#p-awning)"/>
+            <rect x="426" y="476" width="348" height="10" rx="5" fill="#a82c1b"/>
+
+            <!-- vetrina con tendina a quadri -->
+            <circle cx="500" cy="640" r="120" fill="url(#g-glow)" class="glow"/>
+            <rect x="442" y="566" width="118" height="160" rx="8" fill="#24160f"/>
+            <rect x="450" y="574" width="102" height="144" rx="4" fill="url(#g-window)"/>
+            <path d="M450 574h102v26c-17 10-34 10-51 0c-17 10-34 10-51 0Z" fill="url(#p-gingham)"/>
+            <rect x="450" y="662" width="102" height="56" fill="url(#p-gingham)"/>
+            <rect x="499" y="574" width="4" height="144" fill="#24160f"/>
+            <rect x="436" y="724" width="130" height="10" rx="3" fill="#9a5c1a"/>
+            <g class="window-pizza"><circle cx="476" cy="644" r="14" fill="#e9b064"/><circle cx="476" cy="644" r="10" fill="#d8412a"/><circle cx="472" cy="641" r="2.5" fill="#f7eedd"/><circle cx="480" cy="647" r="2.5" fill="#f7eedd"/></g>
+
+            <!-- vano porta (dentro si vede il locale) -->
+            <path id="doorway" d="M600 832V624a65 65 0 0 1 130 0V832Z" fill="#1a0f09"/>
+            <path d="M594 834V624a71 71 0 0 1 142 0V834" fill="none" stroke="#24160f" stroke-width="10"/>
+            <rect x="584" y="830" width="162" height="12" rx="3" fill="#7a4a22"/>
+            <rect x="744" y="590" width="26" height="20" rx="4" fill="#f7eedd"/><text x="757" y="605" text-anchor="middle" class="civic">97</text>
+
+            <!-- vaso di basilico -->
+            <path d="M560 790h30l-5 42h-20Z" fill="#b8492e"/>
+            <g fill="#3e7d3a"><ellipse cx="575" cy="780" rx="10" ry="16" transform="rotate(-20 575 780)"/><ellipse cx="566" cy="784" rx="7" ry="12" transform="rotate(-50 566 784)"/><ellipse cx="585" cy="784" rx="7" ry="12" transform="rotate(40 585 784)"/></g>
+
+            <!-- marciapiede e lavagnetta -->
+            <rect x="-800" y="838" width="2800" height="300" fill="#2b2422"/>
+            <rect x="-800" y="838" width="2800" height="5" fill="#4a3d38"/>
+            <g class="aboard"><path d="M752 838l14-96h52l14 96" fill="none" stroke="#9a5c1a" stroke-width="7" stroke-linejoin="round"/><rect x="760" y="748" width="64" height="70" rx="4" fill="#22352b" stroke="#9a5c1a" stroke-width="5"/><text x="792" y="774" text-anchor="middle" class="chalk">Pizza</text><text x="792" y="796" text-anchor="middle" class="chalk chalk--s">fino all’1:30</text><text x="792" y="812" text-anchor="middle" class="chalk chalk--s">(mar. no)</text></g>
+          </svg>
+        </div>
+
+        <!-- B · dentro: tovaglia a quadri e pizza (visibile solo dal vano porta, poi a tutto schermo) -->
+        <div class="interior" aria-hidden="true">
+          <div class="interior-inner">
+            <div class="tablecloth"></div>
+            <svg class="prop prop--beer" viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#d18a24" stroke="#f7eedd" stroke-width="5"/><circle cx="50" cy="50" r="33" fill="#f6e7c6"/><circle cx="42" cy="44" r="6" fill="#fff8ea"/><circle cx="58" cy="56" r="4" fill="#fff8ea"/></svg>
+            <svg class="prop prop--cutlery" viewBox="0 0 120 260"><rect x="8" y="20" width="104" height="220" rx="10" fill="#f7eedd" opacity=".95"/><g fill="#8b8f96"><rect x="30" y="40" width="8" height="190" rx="4"/><rect x="25" y="40" width="3" height="50" rx="1.5"/><rect x="40" y="40" width="3" height="50" rx="1.5"/><path d="M80 40c14 10 14 70 4 84v106h-8V40Z"/></g></svg>
+            <svg class="prop prop--chili" viewBox="0 0 120 60"><path d="M10 34c30 6 70 4 96-20c4 10-6 30-34 38C46 58 20 50 10 34Z" fill="#c62f1d"/><path d="M104 14c4-6 10-8 14-6" stroke="#3e7d3a" stroke-width="6" fill="none" stroke-linecap="round"/></svg>
+            <svg class="pizza" viewBox="-270 -270 540 540">
+              <defs>
+                <radialGradient id="g-crust" r=".5"><stop offset=".78" stop-color="#f1cd8a"/><stop offset=".9" stop-color="#e4a45a"/><stop offset="1" stop-color="#b96a2c"/></radialGradient>
+              </defs>
+              <ellipse cx="10" cy="18" rx="262" ry="262" fill="#24160f" opacity=".25"/>
+              <circle r="258" fill="#3c2c28"/><circle r="250" fill="#4b3934"/>
+              <circle r="238" fill="url(#g-crust)"/>
+              <g fill="#6b3a1c" opacity=".75"><ellipse cx="-200" cy="-110" rx="9" ry="6"/><ellipse cx="150" cy="-178" rx="10" ry="7"/><ellipse cx="214" cy="80" rx="8" ry="6"/><ellipse cx="-60" cy="222" rx="11" ry="6"/><ellipse cx="-222" cy="70" rx="7" ry="5"/><ellipse cx="90" cy="214" rx="8" ry="5"/><ellipse cx="-120" cy="-198" rx="7" ry="5"/></g>
+              <g class="ing ing--sauce"><path class="drop" d="M0-203c108-2 200 78 204 190c4 112-86 210-196 214C-104 205-200 122-205 6C-210-106-112-201 0-203Z" fill="#c9361f"/></g>
+              <g class="ing ing--mozz" fill="#fbf3e4">
+                <g transform="translate(-90 -110)"><path class="drop" d="M-30 0c0-22 18-30 34-26c20 4 30 18 26 34c-4 18-22 26-38 22c-14-4-22-14-22-30Z"/></g>
+                <g transform="translate(60 -120)"><path class="drop" d="M-26 -4c4-18 26-24 40-14c14 10 14 30 0 40c-16 10-44 0-40-26Z"/></g>
+                <g transform="translate(130 10)"><path class="drop" d="M-28 2c-2-20 16-32 32-28c18 6 26 22 18 38c-8 16-46 18-50-10Z"/></g>
+                <g transform="translate(-140 30)"><path class="drop" d="M-24 -6c6-18 34-20 44-4c10 16 0 36-18 38c-18 2-32-14-26-34Z"/></g>
+                <g transform="translate(-20 10)"><path class="drop" d="M-30 0c0-20 20-30 36-24c18 6 26 24 16 40c-10 14-52 12-52-16Z"/></g>
+                <g transform="translate(40 120)"><path class="drop" d="M-26 -2c2-20 28-28 42-14c12 12 8 34-10 38c-18 4-34-6-32-24Z"/></g>
+                <g transform="translate(-90 130)"><path class="drop" d="M-22 0c0-18 18-26 32-20c14 6 18 22 10 34c-10 12-42 8-42-14Z"/></g>
+              </g>
+              <g class="ing ing--tomato">
+                <g transform="translate(-20 -170)"><g class="drop"><circle r="20" fill="#e23b2a"/><circle r="13" fill="#f2705a"/><circle cx="-5" cy="-2" r="2.6" fill="#ffd8a8"/><circle cx="5" cy="3" r="2.6" fill="#ffd8a8"/></g></g>
+                <g transform="translate(150 -80)"><g class="drop"><circle r="19" fill="#e23b2a"/><circle r="12" fill="#f2705a"/><circle cx="-4" cy="2" r="2.5" fill="#ffd8a8"/><circle cx="4" cy="-3" r="2.5" fill="#ffd8a8"/></g></g>
+                <g transform="translate(-160 -40)"><g class="drop"><circle r="20" fill="#e8482f"/><circle r="13" fill="#f2705a"/><circle cx="-4" cy="-4" r="2.6" fill="#ffd8a8"/><circle cx="5" cy="2" r="2.6" fill="#ffd8a8"/></g></g>
+                <g transform="translate(70 40)"><g class="drop"><circle r="19" fill="#e23b2a"/><circle r="12" fill="#f2705a"/><circle cx="3" cy="-4" r="2.5" fill="#ffd8a8"/><circle cx="-4" cy="3" r="2.5" fill="#ffd8a8"/></g></g>
+                <g transform="translate(-60 80)"><g class="drop"><circle r="20" fill="#e8482f"/><circle r="13" fill="#f2705a"/><circle cx="-5" cy="1" r="2.6" fill="#ffd8a8"/><circle cx="5" cy="-2" r="2.6" fill="#ffd8a8"/></g></g>
+                <g transform="translate(130 140)"><g class="drop"><circle r="18" fill="#e23b2a"/><circle r="11" fill="#f2705a"/><circle cx="-3" cy="-3" r="2.4" fill="#ffd8a8"/><circle cx="4" cy="3" r="2.4" fill="#ffd8a8"/></g></g>
+                <g transform="translate(-170 130)"><g class="drop"><circle r="18" fill="#e23b2a"/><circle r="11" fill="#f2705a"/><circle cx="3" cy="-3" r="2.4" fill="#ffd8a8"/><circle cx="-3" cy="3" r="2.4" fill="#ffd8a8"/></g></g>
+              </g>
+              <g class="ing ing--grana" fill="#f4e4a8">
+                <g transform="translate(-110 -60) rotate(20)"><path class="drop" d="M-14 -5l22-6l8 12l-24 6Z"/></g>
+                <g transform="translate(20 -90) rotate(-30)"><path class="drop" d="M-12 -4l20-4l6 10l-22 4Z"/></g>
+                <g transform="translate(110 -150) rotate(60)"><path class="drop" d="M-12 -5l18-3l8 11l-20 4Z"/></g>
+                <g transform="translate(180 40) rotate(-10)"><path class="drop" d="M-14 -4l22-5l6 12l-24 3Z"/></g>
+                <g transform="translate(10 60) rotate(45)"><path class="drop" d="M-12 -4l20-4l6 10l-22 4Z"/></g>
+                <g transform="translate(-130 80) rotate(-50)"><path class="drop" d="M-12 -5l18-3l8 11l-20 4Z"/></g>
+                <g transform="translate(-10 170) rotate(15)"><path class="drop" d="M-14 -4l22-5l6 12l-24 3Z"/></g>
+                <g transform="translate(90 90) rotate(80)"><path class="drop" d="M-10 -4l18-3l6 10l-18 3Z"/></g>
+              </g>
+              <g class="ing ing--leaf" fill="#3e7d3a">
+                <g transform="translate(-60 -60) rotate(-30)"><g class="drop"><path d="M0 -36c22 14 22 50 0 72c-22-22-22-58 0-72Z"/><path d="M0 -30V34" stroke="#2c5c2a" stroke-width="2.5"/></g></g>
+                <g transform="translate(90 -40) rotate(50)"><g class="drop"><path d="M0 -32c20 12 20 44 0 64c-20-20-20-52 0-64Z"/><path d="M0 -26V30" stroke="#2c5c2a" stroke-width="2.5"/></g></g>
+                <g transform="translate(-100 100) rotate(110)"><g class="drop"><path d="M0 -34c20 14 20 48 0 68c-20-20-20-54 0-68Z"/><path d="M0 -28V32" stroke="#2c5c2a" stroke-width="2.5"/></g></g>
+                <g transform="translate(40 150) rotate(-70)"><g class="drop"><path d="M0 -30c18 12 18 42 0 60c-18-18-18-48 0-60Z"/><path d="M0 -24V28" stroke="#2c5c2a" stroke-width="2.5"/></g></g>
+                <g transform="translate(-10 -140) rotate(160)"><g class="drop"><path d="M0 -30c18 12 18 42 0 60c-18-18-18-48 0-60Z"/><path d="M0 -24V28" stroke="#2c5c2a" stroke-width="2.5"/></g></g>
+                <g transform="translate(170 -10) rotate(10)"><g class="drop"><path d="M0 -28c16 12 16 40 0 56c-16-16-16-44 0-56Z"/><path d="M0 -22V26" stroke="#2c5c2a" stroke-width="2.5"/></g></g>
+              </g>
+            </svg>
+            <div class="interior-light"></div>
+          </div>
+        </div>
+
+        <!-- C · anta della porta (si apre in 3D) -->
+        <div class="door-layer" aria-hidden="true">
+          <div class="door">
+            <svg class="door-face" viewBox="0 0 130 273" preserveAspectRatio="none">
+              <path d="M0 273V65A65 65 0 0 1 130 65V273Z" fill="#7b2d1c"/>
+              <path d="M5 273V66A60 60 0 0 1 125 66V273" fill="none" stroke="#5a1f12" stroke-width="3"/>
+              <path d="M16 120V66a49 49 0 0 1 98 0v54Z" fill="#ffd98a" opacity=".9"/>
+              <path d="M16 66a49 49 0 0 1 98 0v14c-16 9-33 9-49 0c-16 9-33 9-49 0Z" fill="url(#p-gingham)"/>
+              <rect x="63" y="20" width="4" height="100" fill="#5a1f12"/>
+              <rect x="16" y="140" width="98" height="52" rx="3" fill="none" stroke="#5a1f12" stroke-width="3"/>
+              <rect x="16" y="204" width="98" height="56" rx="3" fill="none" stroke="#5a1f12" stroke-width="3"/>
+              <circle cx="112" cy="168" r="5.5" fill="#f0b43c"/>
+            </svg>
+            <div class="door-sign"><span>Aperto</span></div>
+          </div>
+        </div>
+
+        <!-- testi -->
+        <div class="hero-intro">
+          <p class="eyebrow"><span class="dot"></span>Pizzeria · Poggiofranco, Bari</p>
+          <h1 id="hero-title"><span class="sr-only">Pizzeria Il Bugigattolo: </span>Piccolo il posto.<br /><em>Grande la pizza.</em></h1>
+          <p class="hero-lead">Pochi tavoli, tovaglie a quadri e il forno acceso fino all’una e mezza. A due passi dal Poli.</p>
+          <p class="hero-rating"><span class="hero-stars" aria-hidden="true">★★★★★</span> <strong>4,6</strong> su Google · 1.330 recensioni</p>
+          <div class="hero-cta">
+            <a href="#prenota" class="btn btn--tomato">Prenota un tavolo</a>
+            <a href="#asporto" class="btn btn--paper">Ordina d’asporto</a>
+          </div>
+        </div>
+
+        <p class="hero-note hero-note--1" aria-hidden="true">Toc toc. Sì, è qui.</p>
+        <p class="hero-note hero-note--2" aria-hidden="true">Dentro è piccolino, lo dice il nome.<br />Pochi tavoli: meglio prenotare.</p>
+        <p class="hero-note hero-note--3" aria-hidden="true">Pomodoro, fior di latte, pomodorini, rucola e grana.<br />Una delle tante.</p>
+
+        <div class="hero-end">
+          <p class="hero-end-kicker">Fame?</p>
+          <p class="hero-end-text">Aperti tutte le sere dalle 20:00 all’1:30.<br />Il martedì riposiamo.</p>
+          <div class="hero-cta">
+            <a href="#menu" class="btn btn--paper">Guarda il menù</a>
+            <a href="#prenota" class="btn btn--tomato">Prenota</a>
+          </div>
+        </div>
+
+        <div class="hero-scroll" aria-hidden="true"><span>Scorri ed entra</span><i></i></div>
+      </div>
+    </section>
+
+    <!-- NASTRO A QUADRI -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-row"><span>Fino all’1:30</span><i>✦</i><span>Martedì chiusi</span><i>✦</i><span>Pizza, terrine e taglieri</span><i>✦</i><span>Asporto su WhatsApp</span><i>✦</i><span>A due passi dal Poli</span><i>✦</i></div>
+    </div>
+
+    <!-- IL POSTO: la definizione da vocabolario -->
+    <section class="posto" id="posto" aria-labelledby="posto-title">
+      <div class="posto-grid">
+        <div class="dict">
+          <p class="eyebrow eyebrow--ink"><span class="dot"></span>Dal vocabolario</p>
+          <h2 id="posto-title" class="dict-word">bu·gi·gàt·to·lo <span class="dict-pos">s.m.</span></h2>
+          <ol class="dict-defs">
+            <li>Stanzino piccolo e un po’ nascosto; posticino raccolto.</li>
+            <li><strong>A Poggiofranco:</strong> una pizzeria con pochi tavoli, le tovaglie a quadri, il bancone in legno e il forno acceso fino a tardi. Ci si sta stretti, ma si sta bene.</li>
+          </ol>
+          <p class="dict-example"><em>Es.:</em> «Dove mangiamo stasera?» «Al Bugigattolo, prenoto io.»</p>
+        </div>
+        <div class="polaroids">
+          <figure class="polaroid polaroid--1"><img src="/demo/bugigattolo/images/bancone.jpg" width="219" height="388" alt="Il bancone in legno del Bugigattolo con la macchina del caffè e le bottiglie" loading="lazy" /><figcaption>il bancone</figcaption></figure>
+          <figure class="polaroid polaroid--2"><img src="/demo/bugigattolo/images/pizza-crudo-burrata.jpg" width="255" height="345" alt="Pizza con prosciutto crudo e una burrata al centro" loading="lazy" /><figcaption>crudo e burrata</figcaption></figure>
+          <figure class="polaroid polaroid--3"><img src="/demo/bugigattolo/images/bruschetta.jpg" width="579" height="640" alt="Bruschetta con pomodorini e rucola" loading="lazy" /><figcaption>si comincia così</figcaption></figure>
+        </div>
+      </div>
+
+      <ul class="facts">
+        <li><strong data-count-to="4.6" data-decimals="1">4,6</strong><span>su Google, con 1.330 recensioni</span></li>
+        <li><strong>01:30</strong><span>l’ora in cui chiudiamo, quasi tutte le sere</span></li>
+        <li><strong>Mar</strong><span>l’unico giorno di riposo</span></li>
+        <li><strong>WhatsApp</strong><span>per ordinare da portare via</span></li>
+      </ul>
+    </section>
+
+    <!-- DAL POLI: la lavagna per gli studenti -->
+    <section class="poli" id="poli" aria-labelledby="poli-title">
+      <div class="chalkboard">
+        <p class="eyebrow eyebrow--chalk"><span class="dot"></span>Per chi studia qui intorno</p>
+        <h2 id="poli-title" class="chalk-title">Dal Poli al Bugigattolo</h2>
+        <p class="chalk-lead">Esame passato? Pizza. Esame andato così così? Pizza lo stesso.</p>
+        <ul class="chalk-notes">
+          <li><span class="chalk-num">1</span><p><strong>Sessione lunga?</strong> Il forno resta acceso fino all’1:30. Il martedì no: riposiamo anche noi.</p></li>
+          <li><span class="chalk-num">2</span><p><strong>In gruppo dopo l’esame?</strong> Prenota prima: il posto è piccolino e i tavoli finiscono presto.</p></li>
+          <li><span class="chalk-num">3</span><p><strong>Serata in aula studio?</strong> Ordina d’asporto su WhatsApp e passa a ritirare all’ora che scegli tu.</p></li>
+        </ul>
+        <div class="chalk-cta">
+          <a href="#asporto" class="btn btn--chalk">Ordina d’asporto</a>
+          <a href="#prenota" class="link-chalk">o prenota un tavolo →</a>
+        </div>
+        <svg class="chalk-doodle" viewBox="0 0 200 200" aria-hidden="true"><path d="M100 18L182 160H18Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/><path d="M42 136c38 10 78 10 116 0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle cx="92" cy="96" r="9" fill="none" stroke="currentColor" stroke-width="3.5"/><circle cx="118" cy="122" r="8" fill="none" stroke="currentColor" stroke-width="3.5"/><circle cx="76" cy="128" r="7" fill="none" stroke="currentColor" stroke-width="3.5"/></svg>
+      </div>
+    </section>
+
+    <!-- MENÙ -->
+    <section class="menu" id="menu" aria-labelledby="menu-title">
+      <div class="menu-intro">
+        <p class="eyebrow eyebrow--ink"><span class="dot"></span>Pizze, cucina e da bere</p>
+        <h2 id="menu-title" data-split>Il menù</h2>
+        <p class="menu-lead">Cerca un ingrediente, salta a una sezione o premi <b class="plus-inline">+</b> per mettere un piatto nell’ordine d’asporto.</p>
+      </div>
+      <p class="menu-banner" data-demo-banner><strong>Menù di prova.</strong> Voci prese da foto e recensioni dei clienti, prezzi indicativi (≈): la carta vera arriva dal locale.</p>
+
+      <div class="menu-tools">
+        <label class="search">
+          <span class="sr-only">Cerca nel menù</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+          <input type="search" id="menu-search" placeholder="Cerca: burrata, cozze, pistacchio…" autocomplete="off" maxlength="40" />
+        </label>
+        <button type="button" class="toggle" id="veg-toggle" aria-pressed="false"><span class="veg-dot" aria-hidden="true"></span>Solo vegetariane</button>
+      </div>
+
+      <nav class="menu-nav" aria-label="Categorie del menù"><div class="menu-nav-track"><a href="#cat-casa" class="menu-chip is-active" data-cat="casa">Le pizze di casa</a><a href="#cat-classiche" class="menu-chip" data-cat="classiche">Le classiche</a><a href="#cat-antipasti" class="menu-chip" data-cat="antipasti">Antipasti e taglieri</a><a href="#cat-primi" class="menu-chip" data-cat="primi">Primi</a><a href="#cat-secondi" class="menu-chip" data-cat="secondi">Secondi</a><a href="#cat-dolci" class="menu-chip" data-cat="dolci">Dolci</a><a href="#cat-bevande" class="menu-chip" data-cat="bevande">Da bere</a></div></nav>
+
+      <div class="menu-layout">
+        <aside class="menu-photo" aria-hidden="true">
+          <figure class="menu-frame is-on" data-cats="casa"><img src="/demo/bugigattolo/images/pizza-pomodorini.jpg" width="606" height="640" alt="" loading="lazy" /><figcaption>pomodorini, rucola e grana</figcaption></figure>
+          <figure class="menu-frame" data-cats="classiche"><img src="/demo/bugigattolo/images/pizza-salame.jpg" width="258" height="345" alt="" loading="lazy" /><figcaption>salame piccante e salsiccia</figcaption></figure>
+          <figure class="menu-frame" data-cats="antipasti"><img src="/demo/bugigattolo/images/terrina.jpg" width="200" height="362" alt="" loading="lazy" /><figcaption>la terrina dal forno</figcaption></figure>
+          <figure class="menu-frame" data-cats="primi secondi"><img src="/demo/bugigattolo/images/bresaola.jpg" width="640" height="480" alt="" loading="lazy" /><figcaption>bresaola, grana e rucola</figcaption></figure>
+          <figure class="menu-frame" data-cats="dolci bevande"><img src="/demo/bugigattolo/images/tiramisu.jpg" width="640" height="360" alt="" loading="lazy" /><figcaption>il tiramisù “da favola”</figcaption></figure>
+        </aside>
+        <div class="menu-body">
+          <p class="menu-group" aria-hidden="true">Pizze</p><section class="menu-cat" id="cat-casa" data-cat="casa" aria-labelledby="h-casa">
+      <header class="menu-cat-head">
+        <h3 id="h-casa">Le pizze di casa</h3>
+        <span class="menu-cat-count" data-count>9</span>
+      </header>
+      <p class="menu-note">Quelle che si vedono di più nelle foto dei clienti.</p>
+      <ul class="dish-list"><li class="dish" data-search="murgiana fior di latte, funghi cardoncelli, salsiccia di norcia le pizze di casa">
+    <div class="dish-head"><h4 class="dish-name">Murgiana</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>8,00</span><button type="button" class="add" data-add="casa-murgiana" aria-label="Aggiungi Murgiana all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">fior di latte, funghi cardoncelli, salsiccia di Norcia</p>
+  </li><li class="dish" data-search="martina le pizze di casa">
+    <div class="dish-head"><h4 class="dish-name">Martina</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>8,00</span><button type="button" class="add" data-add="casa-martina" aria-label="Aggiungi Martina all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc dish-desc--ask">Ingredienti? Chiedi a noi: è una di casa.</p>
+  </li><li class="dish" data-search="fume le pizze di casa">
+    <div class="dish-head"><h4 class="dish-name">Fumè</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,50</span><button type="button" class="add" data-add="casa-fume" aria-label="Aggiungi Fumè all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc dish-desc--ask">Ingredienti? Chiedi a noi: è una di casa.</p>
+  </li><li class="dish" data-search="dolce e forte le pizze di casa">
+    <div class="dish-head"><h4 class="dish-name">Dolce e forte</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>8,00</span><button type="button" class="add" data-add="casa-dolce-e-forte" aria-label="Aggiungi Dolce e forte all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc dish-desc--ask">Ingredienti? Chiedi a noi: è una di casa.</p>
+  </li><li class="dish" data-search="crudo e burrata pomodoro, fior di latte, prosciutto crudo, burrata al centro le pizze di casa">
+    <div class="dish-head"><h4 class="dish-name">Crudo e burrata</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>9,00</span><button type="button" class="add" data-add="casa-crudo-e-burrata" aria-label="Aggiungi Crudo e burrata all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">pomodoro, fior di latte, prosciutto crudo, burrata al centro</p>
+  </li><li class="dish" data-search="crudo e pistacchio fior di latte, granella di pistacchio, prosciutto crudo le pizze di casa">
+    <div class="dish-head"><h4 class="dish-name">Crudo e pistacchio</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>9,00</span><button type="button" class="add" data-add="casa-crudo-e-pistacchio" aria-label="Aggiungi Crudo e pistacchio all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">fior di latte, granella di pistacchio, prosciutto crudo</p>
+  </li><li class="dish" data-search="pomodorini, rucola e grana pomodoro, fior di latte, pomodorini, rucola, scaglie di grana le pizze di casa">
+    <div class="dish-head"><h4 class="dish-name">Pomodorini, rucola e grana</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,50</span><button type="button" class="add" data-add="casa-pomodorini-rucola-e-grana" aria-label="Aggiungi Pomodorini, rucola e grana all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">pomodoro, fior di latte, pomodorini, rucola, scaglie di grana</p>
+  </li><li class="dish" data-search="salame piccante e salsiccia pomodoro, fior di latte, salame piccante, salsiccia sbriciolata le pizze di casa">
+    <div class="dish-head"><h4 class="dish-name">Salame piccante e salsiccia</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,50</span><button type="button" class="add" data-add="casa-salame-piccante-e-salsiccia" aria-label="Aggiungi Salame piccante e salsiccia all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">pomodoro, fior di latte, salame piccante, salsiccia sbriciolata</p>
+  </li><li class="dish" data-search="verdure gratinate fior di latte e verdure di stagione gratinate al forno le pizze di casa vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Verdure gratinate <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,00</span><button type="button" class="add" data-add="casa-verdure-gratinate" aria-label="Aggiungi Verdure gratinate all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">fior di latte e verdure di stagione gratinate al forno</p>
+  </li></ul>
+    </section><section class="menu-cat" id="cat-classiche" data-cat="classiche" aria-labelledby="h-classiche">
+      <header class="menu-cat-head">
+        <h3 id="h-classiche">Le classiche</h3>
+        <span class="menu-cat-count" data-count>6</span>
+      </header>
+      <p class="menu-note">Segnaposto: da sostituire con la carta vera del locale.</p>
+      <ul class="dish-list"><li class="dish" data-search="marinara pomodoro, aglio, origano, olio extravergine le classiche vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Marinara <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>4,00</span><button type="button" class="add" data-add="classiche-marinara" aria-label="Aggiungi Marinara all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">pomodoro, aglio, origano, olio extravergine</p>
+  </li><li class="dish" data-search="margherita pomodoro, fior di latte, basilico le classiche vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Margherita <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>5,00</span><button type="button" class="add" data-add="classiche-margherita" aria-label="Aggiungi Margherita all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">pomodoro, fior di latte, basilico</p>
+  </li><li class="dish" data-search="diavola pomodoro, fior di latte, salame piccante le classiche">
+    <div class="dish-head"><h4 class="dish-name">Diavola</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>6,00</span><button type="button" class="add" data-add="classiche-diavola" aria-label="Aggiungi Diavola all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">pomodoro, fior di latte, salame piccante</p>
+  </li><li class="dish" data-search="prosciutto e funghi pomodoro, fior di latte, cotto, funghi le classiche">
+    <div class="dish-head"><h4 class="dish-name">Prosciutto e funghi</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>6,50</span><button type="button" class="add" data-add="classiche-prosciutto-e-funghi" aria-label="Aggiungi Prosciutto e funghi all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">pomodoro, fior di latte, cotto, funghi</p>
+  </li><li class="dish" data-search="capricciosa pomodoro, fior di latte, cotto, funghi, carciofini, olive le classiche">
+    <div class="dish-head"><h4 class="dish-name">Capricciosa</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,00</span><button type="button" class="add" data-add="classiche-capricciosa" aria-label="Aggiungi Capricciosa all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">pomodoro, fior di latte, cotto, funghi, carciofini, olive</p>
+  </li><li class="dish" data-search="quattro formaggi fior di latte, gorgonzola, provola, grana le classiche vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Quattro formaggi <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,00</span><button type="button" class="add" data-add="classiche-quattro-formaggi" aria-label="Aggiungi Quattro formaggi all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">fior di latte, gorgonzola, provola, grana</p>
+  </li></ul>
+    </section><p class="menu-group" aria-hidden="true">Cucina</p><section class="menu-cat" id="cat-antipasti" data-cat="antipasti" aria-labelledby="h-antipasti">
+      <header class="menu-cat-head">
+        <h3 id="h-antipasti">Antipasti e taglieri</h3>
+        <span class="menu-cat-count" data-count>9</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="bruschette pane abbrustolito, pomodorini, rucola antipasti e taglieri vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Bruschette <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>4,00</span><button type="button" class="add" data-add="antipasti-bruschette" aria-label="Aggiungi Bruschette all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">pane abbrustolito, pomodorini, rucola</p>
+  </li><li class="dish" data-search="panzerotti fritti, pomodoro e mozzarella antipasti e taglieri">
+    <div class="dish-head"><h4 class="dish-name">Panzerotti</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>cad.</small><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>1,50</span><button type="button" class="add" data-add="antipasti-panzerotti" aria-label="Aggiungi Panzerotti all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">fritti, pomodoro e mozzarella</p>
+  </li><li class="dish" data-search="antipasti in terrina le terrine calde dal forno, a seconda della giornata antipasti e taglieri">
+    <div class="dish-head"><h4 class="dish-name">Antipasti in terrina</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>6,00</span><button type="button" class="add" data-add="antipasti-antipasti-in-terrina" aria-label="Aggiungi Antipasti in terrina all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">le terrine calde dal forno, a seconda della giornata</p>
+  </li><li class="dish" data-search="antipasto vario caldo e freddo, da dividere antipasti e taglieri">
+    <div class="dish-head"><h4 class="dish-name">Antipasto vario</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>10,00</span><button type="button" class="add" data-add="antipasti-antipasto-vario" aria-label="Aggiungi Antipasto vario all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">caldo e freddo, da dividere</p>
+  </li><li class="dish" data-search="prosciutto crudo antipasti e taglieri">
+    <div class="dish-head"><h4 class="dish-name">Prosciutto crudo</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,00</span><button type="button" class="add" data-add="antipasti-prosciutto-crudo" aria-label="Aggiungi Prosciutto crudo all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    
+  </li><li class="dish" data-search="bresaola, grana e rucola antipasti e taglieri">
+    <div class="dish-head"><h4 class="dish-name">Bresaola, grana e rucola</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>8,00</span><button type="button" class="add" data-add="antipasti-bresaola-grana-e-rucola" aria-label="Aggiungi Bresaola, grana e rucola all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    
+  </li><li class="dish" data-search="carpaccio di manzo rucola e scaglie di grana antipasti e taglieri">
+    <div class="dish-head"><h4 class="dish-name">Carpaccio di manzo</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>9,00</span><button type="button" class="add" data-add="antipasti-carpaccio-di-manzo" aria-label="Aggiungi Carpaccio di manzo all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">rucola e scaglie di grana</p>
+  </li><li class="dish" data-search="tagliere di salumi antipasti e taglieri">
+    <div class="dish-head"><h4 class="dish-name">Tagliere di salumi</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>10,00</span><span class="add add--off" title="Solo al tavolo" aria-hidden="true">·</span></div>
+    
+  </li><li class="dish" data-search="pepata di cozze antipasti e taglieri">
+    <div class="dish-head"><h4 class="dish-name">Pepata di cozze</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>9,00</span><span class="add add--off" title="Solo al tavolo" aria-hidden="true">·</span></div>
+    
+  </li></ul>
+    </section><section class="menu-cat" id="cat-primi" data-cat="primi" aria-labelledby="h-primi">
+      <header class="menu-cat-head">
+        <h3 id="h-primi">Primi</h3>
+        <span class="menu-cat-count" data-count>6</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="pennette all’arrabbiata primi vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Pennette all’arrabbiata <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,00</span><button type="button" class="add" data-add="primi-pennette-all-arrabbiata" aria-label="Aggiungi Pennette all’arrabbiata all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    
+  </li><li class="dish" data-search="spaghetti alle cozze cozze e pomodorini primi">
+    <div class="dish-head"><h4 class="dish-name">Spaghetti alle cozze</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>10,00</span><button type="button" class="add" data-add="primi-spaghetti-alle-cozze" aria-label="Aggiungi Spaghetti alle cozze all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">cozze e pomodorini</p>
+  </li><li class="dish" data-search="spaghetti alla san giovanni primi">
+    <div class="dish-head"><h4 class="dish-name">Spaghetti alla San Giovanni</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>9,00</span><button type="button" class="add" data-add="primi-spaghetti-alla-san-giovanni" aria-label="Aggiungi Spaghetti alla San Giovanni all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc dish-desc--ask">Ingredienti? Chiedi a noi: è una di casa.</p>
+  </li><li class="dish" data-search="orecchiette alle cime di rapa primi vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Orecchiette alle cime di rapa <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>8,00</span><button type="button" class="add" data-add="primi-orecchiette-alle-cime-di-rapa" aria-label="Aggiungi Orecchiette alle cime di rapa all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    
+  </li><li class="dish" data-search="tagliatelle ai frutti di mare primi">
+    <div class="dish-head"><h4 class="dish-name">Tagliatelle ai frutti di mare</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>12,00</span><button type="button" class="add" data-add="primi-tagliatelle-ai-frutti-di-mare" aria-label="Aggiungi Tagliatelle ai frutti di mare all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    
+  </li><li class="dish" data-search="tagliatelle gamberi, pistacchio e stracciatella con datterino giallo primi">
+    <div class="dish-head"><h4 class="dish-name">Tagliatelle gamberi, pistacchio e stracciatella</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>12,00</span><button type="button" class="add" data-add="primi-tagliatelle-gamberi-pistacchio-e-stracciatella" aria-label="Aggiungi Tagliatelle gamberi, pistacchio e stracciatella all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">con datterino giallo</p>
+  </li></ul>
+    </section><section class="menu-cat" id="cat-secondi" data-cat="secondi" aria-labelledby="h-secondi">
+      <header class="menu-cat-head">
+        <h3 id="h-secondi">Secondi</h3>
+        <span class="menu-cat-count" data-count>1</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="tagliata con pomodorini e rucola secondi">
+    <div class="dish-head"><h4 class="dish-name">Tagliata con pomodorini e rucola</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>14,00</span><span class="add add--off" title="Solo al tavolo" aria-hidden="true">·</span></div>
+    
+  </li></ul>
+    </section><p class="menu-group" aria-hidden="true">Dolci e bevande</p><section class="menu-cat" id="cat-dolci" data-cat="dolci" aria-labelledby="h-dolci">
+      <header class="menu-cat-head">
+        <h3 id="h-dolci">Dolci</h3>
+        <span class="menu-cat-count" data-count>4</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="tiramisu fatto in casa dolci vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Tiramisù <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>4,00</span><button type="button" class="add" data-add="dolci-tiramisu" aria-label="Aggiungi Tiramisù all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">fatto in casa</p>
+  </li><li class="dish" data-search="panna cotta ai frutti di bosco dolci vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Panna cotta ai frutti di bosco <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>4,00</span><button type="button" class="add" data-add="dolci-panna-cotta-ai-frutti-di-bosco" aria-label="Aggiungi Panna cotta ai frutti di bosco all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    
+  </li><li class="dish" data-search="crostata al cioccolato fondente cioccolato 60% e caramello salato dolci vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Crostata al cioccolato fondente <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>4,50</span><button type="button" class="add" data-add="dolci-crostata-al-cioccolato-fondente" aria-label="Aggiungi Crostata al cioccolato fondente all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">cioccolato 60% e caramello salato</p>
+  </li><li class="dish" data-search="tortino al cioccolato cuore morbido dolci vegetariana vegetariano veg" data-veg>
+    <div class="dish-head"><h4 class="dish-name">Tortino al cioccolato <span class="badge badge--veg" title="Vegetariana">veg</span></h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>4,50</span><button type="button" class="add" data-add="dolci-tortino-al-cioccolato" aria-label="Aggiungi Tortino al cioccolato all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">cuore morbido</p>
+  </li></ul>
+    </section><section class="menu-cat" id="cat-bevande" data-cat="bevande" aria-labelledby="h-bevande">
+      <header class="menu-cat-head">
+        <h3 id="h-bevande">Da bere</h3>
+        <span class="menu-cat-count" data-count>6</span>
+      </header>
+      
+      <ul class="dish-list"><li class="dish" data-search="birra alla spina piccola / media da bere">
+    <div class="dish-head"><h4 class="dish-name">Birra alla spina</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>da</small><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>3,00</span><button type="button" class="add" data-add="bevande-birra-alla-spina" aria-label="Aggiungi Birra alla spina all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">piccola / media</p>
+  </li><li class="dish" data-search="birra in bottiglia chiedi quelle in frigo da bere">
+    <div class="dish-head"><h4 class="dish-name">Birra in bottiglia</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>da</small><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>3,50</span><button type="button" class="add" data-add="bevande-birra-in-bottiglia" aria-label="Aggiungi Birra in bottiglia all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    <p class="dish-desc">chiedi quelle in frigo</p>
+  </li><li class="dish" data-search="vino della casa rosso o bianco, ¼ / ½ / 1 litro da bere">
+    <div class="dish-head"><h4 class="dish-name">Vino della casa</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><small>da</small><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>3,00</span><span class="add add--off" title="Solo al tavolo" aria-hidden="true">·</span></div>
+    <p class="dish-desc">rosso o bianco, ¼ / ½ / 1 litro</p>
+  </li><li class="dish" data-search="bibite in lattina da bere">
+    <div class="dish-head"><h4 class="dish-name">Bibite in lattina</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>2,50</span><button type="button" class="add" data-add="bevande-bibite-in-lattina" aria-label="Aggiungi Bibite in lattina all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    
+  </li><li class="dish" data-search="acqua naturale o frizzante da bere">
+    <div class="dish-head"><h4 class="dish-name">Acqua naturale o frizzante</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>1,50</span><button type="button" class="add" data-add="bevande-acqua-naturale-o-frizzante" aria-label="Aggiungi Acqua naturale o frizzante all’ordine d’asporto"><span aria-hidden="true">+</span></button></div>
+    
+  </li><li class="dish" data-search="caffe da bere">
+    <div class="dish-head"><h4 class="dish-name">Caffè</h4><span class="dish-leader" aria-hidden="true"></span><span class="dish-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>1,00</span><span class="add add--off" title="Solo al tavolo" aria-hidden="true">·</span></div>
+    
+  </li></ul>
+    </section>
+          <p class="menu-empty" hidden>Niente da fare, non lo troviamo. Prova con un’altra parola o togli il filtro.</p>
+          <div class="menu-foot">
+    <div class="menu-extras">
+      <h3>Aggiunte</h3>
+      <ul><li><span>Aggiunta ingrediente</span><span>+ <span class="approx" title="Prezzo indicativo, da confermare">≈</span>€1,00</span></li><li><span>Bufala o burrata al posto del fior di latte</span><span>+ <span class="approx" title="Prezzo indicativo, da confermare">≈</span>€2,00</span></li>
+        </ul>
+    </div>
+    <div class="menu-marks">
+      <h3>Da sapere</h3>
+      <p><strong>Allergie e intolleranze:</strong> diccelo prima di ordinare, al tavolo o nel messaggio d’asporto.</p>
+      <p>Il <strong>+</strong> accanto a un piatto lo mette nell’ordine d’asporto su WhatsApp. Il <strong>·</strong> vuol dire che si mangia solo al tavolo.</p>
+      <p class="menu-demo">Il simbolo ≈ indica un prezzo indicativo: la carta definitiva arriva dal locale.</p>
+    </div>
+  </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASPORTO SU WHATSAPP -->
+    <section class="asporto" id="asporto" aria-labelledby="asporto-title">
+      <div class="asporto-head">
+        <p class="eyebrow eyebrow--ink"><span class="dot"></span>Asporto su WhatsApp</p>
+        <h2 id="asporto-title" data-split>Ordina senza<br /><em>stare al telefono</em></h2>
+        <p class="asporto-lead">Scegli cosa vuoi, a che ora passi e come ti chiami: il messaggio te lo scriviamo noi. Tu lo mandi su WhatsApp e ti rispondiamo per confermare.</p>
+        <ol class="asporto-steps">
+          <li><span>1</span>Premi <b>+</b> sulle pizze</li>
+          <li><span>2</span>Scegli l’ora di ritiro</li>
+          <li><span>3</span>Invia su WhatsApp</li>
+        </ol>
+      </div>
+
+      <div class="asporto-grid">
+        <div class="asporto-picks">
+          <h3>Le più veloci da aggiungere</h3>
+          <div class="picks"><button type="button" class="pick" data-add="casa-murgiana">
+      <span class="pick-name">Murgiana</span><span class="pick-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>8,00</span><span class="pick-plus" aria-hidden="true">+</span>
+    </button><button type="button" class="pick" data-add="casa-martina">
+      <span class="pick-name">Martina</span><span class="pick-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>8,00</span><span class="pick-plus" aria-hidden="true">+</span>
+    </button><button type="button" class="pick" data-add="casa-fume">
+      <span class="pick-name">Fumè</span><span class="pick-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,50</span><span class="pick-plus" aria-hidden="true">+</span>
+    </button><button type="button" class="pick" data-add="casa-dolce-e-forte">
+      <span class="pick-name">Dolce e forte</span><span class="pick-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>8,00</span><span class="pick-plus" aria-hidden="true">+</span>
+    </button><button type="button" class="pick" data-add="casa-crudo-e-burrata">
+      <span class="pick-name">Crudo e burrata</span><span class="pick-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>9,00</span><span class="pick-plus" aria-hidden="true">+</span>
+    </button><button type="button" class="pick" data-add="casa-crudo-e-pistacchio">
+      <span class="pick-name">Crudo e pistacchio</span><span class="pick-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>9,00</span><span class="pick-plus" aria-hidden="true">+</span>
+    </button><button type="button" class="pick" data-add="casa-pomodorini-rucola-e-grana">
+      <span class="pick-name">Pomodorini, rucola e grana</span><span class="pick-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,50</span><span class="pick-plus" aria-hidden="true">+</span>
+    </button><button type="button" class="pick" data-add="casa-salame-piccante-e-salsiccia">
+      <span class="pick-name">Salame piccante e salsiccia</span><span class="pick-price"><span class="approx" title="Prezzo indicativo, da confermare">≈</span><span class="cur">€</span>7,50</span><span class="pick-plus" aria-hidden="true">+</span>
+    </button></div>
+          <a href="#menu" class="link-arrow">Tutto il menù, con antipasti, dolci e bibite <span aria-hidden="true">→</span></a>
+        </div>
+
+        <form class="order" id="order-form" novalidate>
+          <div class="order-ticket">
+            <header class="order-head"><h3>Il tuo ordine</h3><button type="button" class="order-clear" data-clear hidden>Svuota</button></header>
+            <ul class="order-list" id="order-list" aria-live="polite"></ul>
+            <p class="order-empty" id="order-empty">Ancora niente. Premi <b>+</b> su una pizza qui accanto o nel menù.</p>
+            <p class="order-total"><span>Totale <small data-total-note>indicativo</small></span><strong data-total>€ 0,00</strong></p>
+          </div>
+
+          <div class="order-fields">
+            <label class="o-field"><span>Ritiro</span>
+              <select id="o-service" name="service"></select>
+            </label>
+            <label class="o-field"><span>Ora</span>
+              <select id="o-time" name="time"></select>
+            </label>
+            <label class="o-field o-field--wide"><span>Il tuo nome</span>
+              <input type="text" name="name" id="o-name" autocomplete="given-name" maxlength="40" placeholder="Es. Antonio" />
+            </label>
+            <label class="o-field o-field--wide"><span>Note <small>(facoltative)</small></span>
+              <input type="text" name="notes" id="o-notes" maxlength="160" placeholder="Senza basilico, pizza tagliata, allergie…" />
+            </label>
+          </div>
+          <p class="order-error" role="alert"></p>
+
+          <div class="wa">
+            <p class="wa-label">Anteprima del messaggio</p>
+            <div class="wa-screen"><p class="wa-bubble" id="wa-text"></p></div>
+          </div>
+          <a class="btn btn--wa btn--lg" id="wa-send" href="https://wa.me/393401517737" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.6 11.6 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.7-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.3-.2-.6-.3Z" /></svg>
+            <span>Invia l’ordine su WhatsApp</span>
+          </a>
+          <p class="order-privacy">Il messaggio parte dal tuo telefono: questo sito non salva niente del tuo ordine.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- RECENSIONI -->
+    <section class="reviews" id="recensioni" aria-labelledby="reviews-title">
+      <div class="reviews-head">
+        <div>
+          <p class="eyebrow eyebrow--paper"><span class="dot"></span>Recensioni</p>
+          <h2 id="reviews-title" data-split>Lo dicono loro.<br /><em>Noi siamo di parte.</em></h2>
+        </div>
+        <div class="reviews-score">
+          <strong>4,6</strong>
+          <span class="reviews-stars" aria-hidden="true">★★★★★</span>
+          <span>su Google · 1.330 recensioni</span>
+        </div>
+      </div>
+      <div class="reviews-track" tabindex="0" aria-label="Recensioni dei clienti, scorrevoli di lato">
+        <figure class="review" data-i="0">
+      <span class="stars" aria-label="5 stelle su 5">★★★★★<span class="stars-off"></span></span>
+      <blockquote><p>“Pizza deliziosa e tiramisù da favola.”</p></blockquote>
+      <figcaption><strong>Giuliana</strong><span>Sluurpy · giugno 2023</span></figcaption>
+    </figure><figure class="review" data-i="1">
+      <span class="stars" aria-label="5 stelle su 5">★★★★★<span class="stars-off"></span></span>
+      <blockquote><p>“Accogliente e suggestiva, che rimanda ad una baita di montagna.”</p></blockquote>
+      <figcaption><strong>Tiziana</strong><span>Sluurpy · luglio 2023</span></figcaption>
+    </figure><figure class="review" data-i="2">
+      <span class="stars" aria-label="5 stelle su 5">★★★★★<span class="stars-off"></span></span>
+      <blockquote><p>“Si mangia bene a prezzi decisamente contenuti.”</p></blockquote>
+      <figcaption><strong>Terry</strong><span>Sluurpy · maggio 2023</span></figcaption>
+    </figure><figure class="review" data-i="3">
+      <span class="stars" aria-label="5 stelle su 5">★★★★★<span class="stars-off"></span></span>
+      <blockquote><p>“Il personale gentilissimo e disponibile, che lavora sempre col sorriso.”</p></blockquote>
+      <figcaption><strong>Sara</strong><span>Sluurpy · luglio 2023</span></figcaption>
+    </figure><figure class="review" data-i="4">
+      <span class="stars" aria-label="4 stelle su 5">★★★★<span class="stars-off">★</span></span>
+      <blockquote><p>“Le pizze sono davvero ottime.”</p></blockquote>
+      <figcaption><strong>Marta N.</strong><span>PagineGialle</span></figcaption>
+    </figure><figure class="review" data-i="5">
+      <span class="stars" aria-label="5 stelle su 5">★★★★★<span class="stars-off"></span></span>
+      <blockquote><p>“Ottima qualità del cibo, personale gentile, servizio efficiente.”</p></blockquote>
+      <figcaption><strong>Nicola</strong><span>Sluurpy · maggio 2023</span></figcaption>
+    </figure>
+      </div>
+      <p class="reviews-foot"><a href="https://www.google.com/maps/search/?api=1&amp;query=Pizzeria+Il+Bugigattolo+Via+Gaetano+Salvemini+97+Bari" target="_blank" rel="noopener noreferrer">Leggile tutte su Google ↗</a> · Sei passato da noi? Lasciaci due righe.</p>
+    </section>
+
+    <!-- PRENOTAZIONI -->
+    <section class="booking" id="prenota" aria-labelledby="booking-title">
+      <div class="booking-side">
+        <p class="eyebrow"><span class="dot"></span>Prenota</p>
+        <h2 id="booking-title" data-split>Tienici<br /><em>un tavolo</em></h2>
+        <p>Il posto è piccolino e la sera si riempie in fretta. Scegli giorno, ora e quante persone siete: ti richiamiamo noi per confermare.</p>
+        <p class="booking-phone">Preferisci chiamare?<br /><a href="tel:+393401517737">340 151 7737</a><br /><span class="booking-phone-note">Dalle 20:00, tutti i giorni tranne il martedì.</span></p>
+      </div>
+
+      <form class="booking-form" id="booking-form" novalidate>
+        <fieldset class="bf-block">
+          <legend>Giorno</legend>
+          <div class="chips" id="bf-days" role="radiogroup" aria-label="Giorno"></div>
+          <label class="bf-other">Altra data <input type="date" id="bf-date" name="date" required /></label>
+          <p class="bf-error" data-error="date"></p>
+        </fieldset>
+
+        <fieldset class="bf-block">
+          <legend>Orario</legend>
+          <div class="chips chips--time" id="bf-times" role="radiogroup" aria-label="Orario"><p class="bf-hint">Scegli prima il giorno</p></div>
+          <p class="bf-error" data-error="time"></p>
+        </fieldset>
+
+        <fieldset class="bf-block bf-guests">
+          <legend>Persone</legend>
+          <div class="stepper">
+            <button type="button" data-step="-1" aria-label="Una persona in meno">−</button>
+            <output id="bf-guests-out" aria-live="polite">2</output>
+            <button type="button" data-step="1" aria-label="Una persona in più">+</button>
+          </div>
+          <input type="hidden" name="guests" id="bf-guests" value="2" />
+          <p class="bf-error" data-error="guests"></p>
+        </fieldset>
+
+        <div class="bf-grid">
+          <label class="field"><input type="text" name="name" autocomplete="name" required maxlength="60" placeholder=" " /><span>Nome e cognome</span><em class="bf-error" data-error="name"></em></label>
+          <label class="field"><input type="tel" name="phone" autocomplete="tel" required maxlength="20" placeholder=" " inputmode="tel" /><span>Telefono</span><em class="bf-error" data-error="phone"></em></label>
+          <label class="field field--wide"><input type="email" name="email" autocomplete="email" maxlength="120" placeholder=" " /><span>Email (facoltativa)</span><em class="bf-error" data-error="email"></em></label>
+          <label class="field field--wide"><textarea name="notes" rows="2" maxlength="300" placeholder=" "></textarea><span>Note: allergie, seggiolone, compleanno, tavolo fuori…</span></label>
+        </div>
+
+        <!-- Campo trappola per i bot: invisibile alle persone -->
+        <label class="hp" aria-hidden="true">Sito web <input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+
+        <label class="check">
+          <input type="checkbox" name="privacy" required />
+          <span>Accetto il trattamento dei dati per gestire la prenotazione (<a href="/demo/bugigattolo/privacy.html" target="_blank" rel="noopener">informativa privacy</a>).</span>
+        </label>
+        <p class="bf-error" data-error="privacy"></p>
+
+        <div class="bf-submit">
+          <button type="submit" class="btn btn--tomato btn--lg"><span>Invia la richiesta</span></button>
+          <p class="bf-status" role="status" aria-live="polite"></p>
+        </div>
+
+        <div class="bf-success" hidden>
+          <svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="36" /><path d="m25 41 10 10 21-22" /></svg>
+          <h3>Richiesta inviata!</h3>
+          <p>Ti richiamiamo al più presto per confermare il tavolo.<br />Codice richiesta: <strong data-code></strong></p>
+          <button type="button" class="btn btn--paper" data-reset>Nuova prenotazione</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- CONTATTI -->
+    <section class="contact" id="contatti" aria-labelledby="contact-title">
+      <div class="contact-grid">
+        <div class="contact-main">
+          <p class="eyebrow eyebrow--ink"><span class="dot"></span>Dove siamo</p>
+          <h2 id="contact-title" data-split>Via Salvemini 97,<br /><em>Poggiofranco</em></h2>
+          <p class="contact-sub">Bari. Cerca la tenda a righe bianche e rosse tra i palazzi: la porta è piccola, ma si apre.</p>
+          <p class="status-big" data-open-status><i></i><span>Orari</span></p>
+          <div class="contact-actions">
+            <a class="btn btn--tomato" href="tel:+393401517737">Chiama 340 151 7737</a>
+            <a class="btn btn--wa" href="https://wa.me/393401517737" target="_blank" rel="noopener noreferrer"><span>WhatsApp</span></a>
+            <a class="btn btn--paper" href="https://www.google.com/maps/search/?api=1&amp;query=Pizzeria+Il+Bugigattolo+Via+Gaetano+Salvemini+97+Bari" target="_blank" rel="noopener noreferrer">Indicazioni</a>
+          </div>
+          <ul class="contact-list">
+            <li><span>Telefono</span><a href="tel:+393401517737">340 151 7737</a> <small>anche WhatsApp</small></li>
+            <li><span>Facebook</span><a href="https://www.facebook.com/pages/Bugigattolo/112682838799499" target="_blank" rel="noopener noreferrer">Bugigattolo</a></li>
+            <li><span>Servizi</span>tavoli fuori, asporto, parcheggio in strada</li>
+          </ul>
+        </div>
+        <div class="contact-hours">
+          <h3>Orari</h3>
+          <ul class="hours" id="hours"><li data-day="1"><span>Lunedì</span><span>20:00 – 01:30</span></li><li data-day="2"><span>Martedì</span><span>Riposo</span></li><li data-day="3"><span>Mercoledì</span><span>20:00 – 01:30</span></li><li data-day="4"><span>Giovedì</span><span>20:00 – 01:30</span></li><li data-day="5"><span>Venerdì</span><span>20:00 – 01:30</span></li><li data-day="6"><span>Sabato</span><span>20:00 – 01:30</span></li><li data-day="0"><span>Domenica</span><span>20:00 – 01:30</span></li></ul>
+          <p class="hours-note">Nei festivi gli orari possono cambiare: nel dubbio, scrivici.</p>
+        </div>
+        <div class="contact-map">
+          <button type="button" class="map-load" id="map-load">
+            <span>Mostra la mappa</span>
+            <small>Caricando la mappa accetti i cookie di Google Maps</small>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-gingham" aria-hidden="true"></div>
+    <p class="footer-word" aria-hidden="true"><small>il</small>Bugigattolo</p>
+    <div class="footer-row">
+      <p>Pizzeria Il Bugigattolo · Via Gaetano Salvemini, 97 – Bari · Tel. e WhatsApp 340 151 7737</p>
+      <p><a href="https://www.facebook.com/pages/Bugigattolo/112682838799499" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="/demo/bugigattolo/privacy.html">Privacy</a> · <a href="#top">Torna su ↑</a></p>
+    </div>
+  </footer>
+</body>
+</html>
