@@ -1,0 +1,70 @@
+{
+ "today": "__TODAY__",
+ "openToday": true,
+ "updatedAt": "__NOW__",
+ "items": [
+  {
+   "id": 42,
+   "name": "Orate",
+   "origin": "Allevamento italiano",
+   "note": "Ottime al forno con le patate",
+   "untilSoldOut": true,
+   "soldOut": false,
+   "photo": null
+  },
+  {
+   "id": 43,
+   "name": "Gamberi rossi",
+   "origin": "Basso Adriatico",
+   "note": "Per il crudo, già abbattuti",
+   "untilSoldOut": true,
+   "soldOut": false,
+   "photo": null
+  },
+  {
+   "id": 44,
+   "name": "Polpo verace",
+   "origin": "Nostra barca · Barletta",
+   "note": "Battuto e pulito su richiesta",
+   "untilSoldOut": true,
+   "soldOut": false,
+   "photo": null
+  },
+  {
+   "id": 45,
+   "name": "Cozze",
+   "origin": "Allevamento pugliese",
+   "note": "Anche già pulite",
+   "untilSoldOut": true,
+   "soldOut": false,
+   "photo": null
+  },
+  {
+   "id": 46,
+   "name": "Spigole",
+   "origin": "Mar Adriatico",
+   "note": "Pescato, non d’allevamento",
+   "untilSoldOut": true,
+   "soldOut": false,
+   "photo": null
+  },
+  {
+   "id": 47,
+   "name": "Triglie di scoglio",
+   "origin": "Nostra barca · Barletta",
+   "note": null,
+   "untilSoldOut": true,
+   "soldOut": false,
+   "photo": null
+  },
+  {
+   "id": 48,
+   "name": "Calamari",
+   "origin": "Basso Adriatico",
+   "note": "Per frittura o ripieni",
+   "untilSoldOut": true,
+   "soldOut": false,
+   "photo": null
+  }
+ ]
+}
