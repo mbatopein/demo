@@ -17,6 +17,9 @@
         return r.text();
       }).then(function (t) {
         var d = new Date(), today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Rome' }).format(d);
+        t = t.replace(/__DAY\+(\d+)__/g, function (_, n) {
+          var x = new Date(today + 'T12:00:00Z'); x.setUTCDate(x.getUTCDate() + Number(n)); return x.toISOString().slice(0, 10);
+        });
         t = t.split('__TODAY__').join(today).split('__NOW__').join(new Date(d.getTime() - 3 * 3600e3).toISOString());
         return new Response(t, { status: 200, headers: { 'Content-Type': 'application/json' } });
       }).catch(function () {
